@@ -26,6 +26,7 @@ namespace Objects
         {
             _rigidbody.useGravity = false;
             _mouseOffset = transform.position - GetMouseContactPointWithObjects();
+            _mouseOffset.y = 0f;
         }
 
         private Vector3 GetMouseContactPointWithObjects()
