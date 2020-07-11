@@ -47,8 +47,8 @@ namespace Objects
         }
 
         public void OnMouseDrag()
-        {                
-            transform.position = AddYOffset(GetMouseContactPointWithObjects()) + _mouseOffset;
+        {
+            transform.position = AddYOffset(GetMouseContactPointWithObjects()); //+ _mouseOffset;
         }
 
         private Vector3 AddYOffset(Vector3 vec)
