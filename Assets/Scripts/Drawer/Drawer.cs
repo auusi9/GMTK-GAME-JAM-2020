@@ -8,7 +8,7 @@ namespace Drawer
 
         private bool _open = false;
         private int _openHash = Animator.StringToHash("Open");
-        private void OnMouseUp()
+        public void OnMouseUp()
         {
             _open = !_open;
             _animator.SetBool(_openHash, _open);

@@ -1,14 +1,16 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.InputSystem;
+using UnityEngine.InputSystem.Controls;
 
-public class Mouse : MonoBehaviour
+public class TableMouse : MonoBehaviour
 {
     [SerializeField] private BoxCollider _boxCollider;
 
     private void Update()
     {
-        Vector2 posRelative = Input.mousePosition;
+        Vector2 posRelative = Mouse.current.position.ReadValue();
         posRelative.x /= Screen.width;
         posRelative.y /= Screen.height;
 
