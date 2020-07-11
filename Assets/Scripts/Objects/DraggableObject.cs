@@ -1,4 +1,5 @@
 using UnityEngine;
+using UnityEngine.InputSystem;
 
 namespace Objects
 {
@@ -19,10 +20,9 @@ namespace Objects
             vec.y = _defaultY;
             _camera = Camera.main;
             _mouseZCoord = _camera.WorldToScreenPoint(vec).z;
-
         }
 
-        void OnMouseDown()
+        public void OnMouseDown()
         {
             _rigidbody.useGravity = false;
             _mouseOffset = transform.position - GetMouseContactPointWithObjects();
@@ -30,7 +30,7 @@ namespace Objects
 
         private Vector3 GetMouseContactPointWithObjects()
         {
-            Vector3 mousePoint = Input.mousePosition;
+            Vector3 mousePoint = Mouse.current.position.ReadValue();
             mousePoint.z = _mouseZCoord;
             
             Vector3 origin = _camera.transform.position;
@@ -45,7 +45,7 @@ namespace Objects
             return direction + origin;
         }
 
-        void OnMouseDrag()
+        public void OnMouseDrag()
         {                
             transform.position = AddYOffset(GetMouseContactPointWithObjects()) + _mouseOffset;
         }
@@ -57,7 +57,7 @@ namespace Objects
             return returnVec;
         }
 
-        private void OnMouseUp()
+        public void OnMouseUp()
         {
             _rigidbody.useGravity = true;
         }
