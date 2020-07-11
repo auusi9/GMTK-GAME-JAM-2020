@@ -16,11 +16,10 @@ public class Mouse : MonoBehaviour
         Vector3 vec = bounds.center;
         vec.x += bounds.extents.x;
         vec.z += bounds.extents.z;
+        vec.y = transform.position.y;
 
         vec.x -= bounds.size.x * posRelative.x;
         vec.z -= bounds.size.z * posRelative.y;
-
-        Debug.Log(posRelative);
         
         transform.position = vec;
     }
