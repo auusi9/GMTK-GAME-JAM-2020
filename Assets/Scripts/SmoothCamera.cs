@@ -1,6 +1,7 @@
 ﻿using UnityEngine;
 using System.Collections;
 using System.Collections.Generic;
+using UnityEngine.InputSystem;
 
 [AddComponentMenu("Camera-Control/Smooth Mouse Look")]
 public class SmoothCamera : MonoBehaviour
@@ -32,13 +33,16 @@ public class SmoothCamera : MonoBehaviour
 
 	void Update()
 	{
+		Vector2 mousePosition = Mouse.current.delta.ReadValue().normalized;
+
 		if (axes == RotationAxes.MouseXAndY)
 		{
 			rotAverageY = 0f;
 			rotAverageX = 0f;
-
-			rotationY += Input.GetAxis("Mouse Y") * sensitivityY;
-			rotationX += Input.GetAxis("Mouse X") * sensitivityX;
+			
+			
+			rotationY += mousePosition.y * sensitivityY;
+			rotationX += mousePosition.x * sensitivityX;
 
 			rotArrayY.Add(rotationY);
 			rotArrayX.Add(rotationX);
@@ -76,7 +80,7 @@ public class SmoothCamera : MonoBehaviour
 		{
 			rotAverageX = 0f;
 
-			rotationX += Input.GetAxis("Mouse X") * sensitivityX;
+			rotationX += mousePosition.x * sensitivityX;
 
 			rotArrayX.Add(rotationX);
 
@@ -99,7 +103,7 @@ public class SmoothCamera : MonoBehaviour
 		{
 			rotAverageY = 0f;
 
-			rotationY += Input.GetAxis("Mouse Y") * sensitivityY;
+			rotationY += mousePosition.y * sensitivityY;
 
 			rotArrayY.Add(rotationY);
 
