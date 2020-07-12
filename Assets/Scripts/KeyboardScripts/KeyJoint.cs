@@ -22,9 +22,12 @@ namespace KeyboardScripts
             _assignedKey = newKey;
         }
 
-        public void KeyPressed()
+        public void KeyPressed(InputAction.CallbackContext context)
         {
-            
+            if (context.performed)
+            {  
+                Debug.Log("KEY PRESSED " + context.action.controls[0].name);
+            }
         }
     }
 }
