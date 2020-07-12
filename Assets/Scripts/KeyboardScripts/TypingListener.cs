@@ -8,6 +8,7 @@ namespace KeyboardScripts
         public UnityAction<string> NewLetter;
         public static TypingListener Instance;
         private bool _shiftPressed;
+        public UnityAction NewDelete { get; set; }
 
         private void Awake()
         {
@@ -42,7 +43,7 @@ namespace KeyboardScripts
             _shiftPressed = false;
         }
 
-        private static string KeyCodeToString(KeyCode key)
+        private string KeyCodeToString(KeyCode key)
         {
             switch (key)
             {
@@ -77,11 +78,14 @@ namespace KeyboardScripts
                 case KeyCode.LeftShift:
                     return "";
                 case KeyCode.Backspace:
+                    NewDelete?.Invoke();
                     return "";
                 case KeyCode.Semicolon:
                     return ";"; 
                 case KeyCode.Space:
                     return " ";
+                case KeyCode.Return:
+                    return "\n";
                 default:
                     return key.ToString();
             }

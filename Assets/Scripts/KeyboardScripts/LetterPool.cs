@@ -88,7 +88,7 @@ namespace KeyboardScripts
                     keyboardKey = _keyboardKeys.GetComponent();
                     break;
             }
-            
+
             keyboardKey.transform.position = transform.position;
             keyboardKey.gameObject.SetActive(true);
             keyboardKey.SetKey(keyToSpawn);

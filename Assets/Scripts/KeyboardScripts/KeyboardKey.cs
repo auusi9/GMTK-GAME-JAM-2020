@@ -15,6 +15,9 @@ namespace KeyboardScripts
         [SerializeField] private Vector3 _finalOffset;
         [SerializeField] private float _snapSpeed = 1f;
         [SerializeField] private KeyCode _defaultKey = KeyCode.None;
+        [SerializeField] private AudioClip _attachClip;
+        [SerializeField] private AudioSource _audioSource;
+        
         public KeyCode Key
         {
             get { return _defaultKey; } 
@@ -83,7 +86,7 @@ namespace KeyboardScripts
                 {
                     keyJoint.NewKeyAssigned(Key);
                     transform.SetParent(keyJoint.transform, true);
-                    DeactivateKeyAndGoToPosition(keyJoint.transform.position + _finalOffset);
+                    DeactivateKeyAndGoToPosition(_finalOffset);
                 }
             }
         }
@@ -104,15 +107,16 @@ namespace KeyboardScripts
 
         private IEnumerator GoToPosition(Vector3 finalPosition)
         {
-            while (Vector3.Distance(finalPosition, transform.position) > 0.1)
+            while (Vector3.Distance(finalPosition, transform.localPosition) > 0.01)
             {
-                transform.position = Vector3.Lerp(transform.position, finalPosition, Time.deltaTime * _snapSpeed);
+                transform.localPosition = Vector3.Lerp(transform.localPosition, finalPosition, Time.deltaTime * _snapSpeed);
                 transform.localRotation = Quaternion.Slerp(transform.localRotation, _finalRotation, Time.deltaTime * _snapSpeed);
                 yield return 0;
             }
 
-            transform.position = finalPosition;
+            transform.localPosition = finalPosition;
             transform.localRotation = _finalRotation;
+            _audioSource.PlayOneShot(_attachClip);
         }
     }
 }
