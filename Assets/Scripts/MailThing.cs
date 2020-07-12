@@ -9,6 +9,7 @@ public class MailThing : MonoBehaviour
 
         private void OnEnable()
         {
+                _mailElement = null;
                 TypingListener.Instance.NewLetter += NewLetter;
                 TypingListener.Instance.NewDelete += NewDelete;
         }
@@ -21,7 +22,7 @@ public class MailThing : MonoBehaviour
 
         private void NewDelete()
         {
-                _mailElement.DeleteLastChar();
+                _mailElement?.DeleteLastChar();
         }
 
         private void NewLetter(string arg0)

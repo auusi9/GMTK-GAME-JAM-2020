@@ -11,10 +11,13 @@ namespace MailGame
         [SerializeField] private Button _focus;
         [SerializeField] private int _charLimit = 500;
 
+        private string _text;
+        
         private void OnEnable()
         {
+            _text = string.Empty;
             _focus.onClick.AddListener(SetFocus);
-            _textMeshPro.SetText("");
+            _textMeshPro.SetText(_text);
         }
 
         private void SetFocus()
@@ -29,26 +32,24 @@ namespace MailGame
 
         public void AddText(string arg0)
         {
-            string text = _textMeshPro.text;
-
-            if (text.Length >= _charLimit)
+            if (_text.Length >= _charLimit)
             {
                 return;
             }
-            
-            _textMeshPro.SetText(text + arg0);
+
+            _text = _text + arg0;
+            _textMeshPro.SetText(_text);
         }
 
         public void DeleteLastChar()
         {
-            string text = _textMeshPro.text;
-            if (string.IsNullOrEmpty(text))
+            if (string.IsNullOrEmpty(_text))
             {
                 return;
             }
             
-            text = text.Remove(text.Length - 1);
-            _textMeshPro.SetText(text);
+            _text = _text.Remove(_text.Length - 1);
+            _textMeshPro.SetText(_text);
         }
     }
 }
