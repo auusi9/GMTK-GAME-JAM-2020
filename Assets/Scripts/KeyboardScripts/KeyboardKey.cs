@@ -15,6 +15,8 @@ namespace KeyboardScripts
         [SerializeField] private Vector3 _finalOffset;
         [SerializeField] private float _snapSpeed = 1f;
         [SerializeField] private KeyCode _defaultKey = KeyCode.None;
+        [SerializeField] private AudioClip _attachClip;
+        [SerializeField] private AudioSource _audioSource;
         
         public KeyCode Key
         {
@@ -114,6 +116,7 @@ namespace KeyboardScripts
 
             transform.localPosition = finalPosition;
             transform.localRotation = _finalRotation;
+            _audioSource.PlayOneShot(_attachClip);
         }
     }
 }
