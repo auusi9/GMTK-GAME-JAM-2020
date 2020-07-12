@@ -21,7 +21,6 @@ namespace Objects
 
         public void OnMouseDown()
         {
-
             Vector3 vec = transform.position;
             vec.y = _defaultY;
             _mouseZCoord = _camera.WorldToScreenPoint(vec).z;
