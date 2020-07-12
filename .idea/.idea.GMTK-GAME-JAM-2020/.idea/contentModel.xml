@@ -30,6 +30,10 @@
             <e p="LetterPool.cs" t="Include" />
             <e p="TypingListener.cs" t="Include" />
           </e>
+          <e p="MailGame" t="Include">
+            <e p="MailElement.cs" t="Include" />
+          </e>
+          <e p="MailThing.cs" t="Include" />
           <e p="Mouse" t="Include">
             <e p="TableMouse.cs" t="Include" />
           </e>
@@ -43,6 +47,7 @@
             <e p="DeactivateObject.cs" t="Include" />
           </e>
           <e p="SwitchCameraPostions.cs" t="Include" />
+          <e p="TimeSetMonitor.cs" t="Include" />
           <e p="TypingGame" t="Include">
             <e p="RandomConfigurations.cs" t="Include" />
             <e p="TypingGame.cs" t="Include" />

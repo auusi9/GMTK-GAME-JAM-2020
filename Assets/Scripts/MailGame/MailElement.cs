@@ -1,3 +1,4 @@
+using System.Collections;
 using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
@@ -15,9 +16,9 @@ namespace MailGame
         
         private void OnEnable()
         {
-            _text = string.Empty;
+            _text = "";
             _focus.onClick.AddListener(SetFocus);
-            _textMeshPro.SetText(_text);
+            _textMeshPro.text = _text;
         }
 
         private void SetFocus()
@@ -41,6 +42,12 @@ namespace MailGame
             _textMeshPro.SetText(_text);
         }
 
+        public void ClearMail()
+        {
+            _text = "";
+            _textMeshPro.SetText(_text);
+        }
+        
         public void DeleteLastChar()
         {
             if (string.IsNullOrEmpty(_text))
