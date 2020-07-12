@@ -7,6 +7,11 @@
       <e p="Assembly-CSharp-Editor.csproj" t="IncludeRecursive" />
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
       <e p="Assets" t="Include">
+        <e p="Media" t="Include">
+          <e p="ToonShaderThings" t="Include">
+            <e p="AwesomeToonHelper.cs" t="Include" />
+          </e>
+        </e>
         <e p="RespawnFallenKeys.cs" t="Include" />
         <e p="Scripts" t="Include">
           <e p="DetectMouseClicks.cs" t="Include" />
@@ -19,7 +24,6 @@
           <e p="Helpers" t="Include">
             <e p="ComponentPool.cs" t="Include" />
           </e>
-          <e p="InputTest.cs" t="Include" />
           <e p="KeyboardScripts" t="Include">
             <e p="KeyboardKey.cs" t="Include" />
             <e p="KeyJoint.cs" t="Include" />
@@ -38,6 +42,7 @@
           <e p="StateAnimatorBehaviours" t="Include">
             <e p="DeactivateObject.cs" t="Include" />
           </e>
+          <e p="SwitchCameraPostions.cs" t="Include" />
           <e p="TypingGame" t="Include">
             <e p="RandomConfigurations.cs" t="Include" />
             <e p="TypingGame.cs" t="Include" />
