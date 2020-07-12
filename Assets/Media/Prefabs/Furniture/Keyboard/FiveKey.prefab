@@ -32,7 +32,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7198363549560289845}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 3.6286404, y: 4.422042, z: -0.4490918}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 0.13, y: 0.13, z: 0.13}
   m_Children: []
   m_Father: {fileID: 0}
@@ -346,7 +346,7 @@ MonoBehaviour:
   _collideLayerMask:
     serializedVersion: 2
     m_Bits: 256
-  _defaultY: 4.8
+  _defaultY: 1
 --- !u!114 &453798462861107679
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -365,9 +365,10 @@ MonoBehaviour:
   _layerMask:
     serializedVersion: 2
     m_Bits: 4294967295
-  _finalRotation: {x: 0, y: 0, z: 0, w: 0}
-  _finalOffset: {x: 0.25, y: 0, z: 0}
+  _finalRotation: {x: 0.0008726645, y: 0, z: 0, w: 0.99999964}
+  _finalOffset: {x: 2.2, y: 0, z: 0}
   _snapSpeed: 5
+  _defaultKey: 0
 --- !u!114 &4359607252569228201
 MonoBehaviour:
   m_ObjectHideFlags: 0

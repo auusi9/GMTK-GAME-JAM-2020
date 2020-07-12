@@ -347,7 +347,7 @@ MonoBehaviour:
   _collideLayerMask:
     serializedVersion: 2
     m_Bits: 256
-  _defaultY: 4.8
+  _defaultY: 1
 --- !u!114 &1095707581779956021
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -366,9 +366,10 @@ MonoBehaviour:
   _layerMask:
     serializedVersion: 2
     m_Bits: 4294967295
-  _finalRotation: {x: 0, y: 0, z: 0, w: 1}
+  _finalRotation: {x: 0.0008726645, y: 0, z: 0, w: 0.99999964}
   _finalOffset: {x: 0, y: 0, z: 0}
   _snapSpeed: 5
+  _defaultKey: 0
 --- !u!114 &6457133202921201931
 MonoBehaviour:
   m_ObjectHideFlags: 0
