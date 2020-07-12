@@ -27,12 +27,27 @@ namespace KeyboardScripts
 
         public void KeyPressed(InputAction.CallbackContext context)
         {
+            if (_assignedKey == KeyCode.LeftShift)
+            {
+                if (context.started)
+                {
+                    TypingListener.Instance.ShiftPressed();
+                }
+                else if(context.performed)
+                {
+                    TypingListener.Instance.ShiftLifted();
+                }
+                
+                return;
+            }
+            
             if (context.performed)
             {  
                 Debug.Log("KEY PRESSED " + context.action.controls[0].name);
                 if (_assignedKey != KeyCode.None)
                 {
                     Debug.Log("KEY SENDED " + _assignedKey);
+                    TypingListener.Instance.NewLetterTyped(_assignedKey);
                 }
             }
         }
