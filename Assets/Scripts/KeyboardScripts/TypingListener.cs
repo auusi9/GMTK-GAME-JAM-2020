@@ -79,7 +79,9 @@ namespace KeyboardScripts
                 case KeyCode.Backspace:
                     return "";
                 case KeyCode.Semicolon:
-                    return ";";
+                    return ";"; 
+                case KeyCode.Space:
+                    return " ";
                 default:
                     return key.ToString();
             }

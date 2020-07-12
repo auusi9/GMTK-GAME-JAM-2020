@@ -20,11 +20,13 @@ namespace TypingGame
         private int _score = 0;
         private int _currentWordScore = 0;
         private float _currentDuration = 0f;
+        private float _thisGameDuration = 0f;
         private bool _timesUp = false;
 
         private void OnEnable()
         {
             _timesUp = false;
+            _thisGameDuration = _gameDuration;
             _currentDuration = 0f;
             TypingListener.Instance.NewLetter += NewLetter;
             _score = 0;
@@ -42,9 +44,9 @@ namespace TypingGame
 
         private void Update()
         {
-            if (_gameDuration - _currentDuration > 0)
+            if (_thisGameDuration - _currentDuration > 0)
             {
-                _timer.SetText("{0}", _gameDuration - _currentDuration);
+                _timer.SetText("{0}", _thisGameDuration - _currentDuration);
                 _currentDuration += Time.deltaTime;
                 return;
             }
@@ -72,6 +74,7 @@ namespace TypingGame
                 if (string.IsNullOrEmpty(_randomWord))
                 {
                     _score += _currentWordScore;
+                    _thisGameDuration += _currentWordScore;
                     _scoreText.SetText(_score.ToString());
                     _currentInput = "";
                     _customInput.SetText(_currentInput);
