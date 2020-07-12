@@ -334,7 +334,7 @@
                     "interactions": ""
                 },
                 {
-                    "name": "RIGHT SHIFT",
+                    "name": "ENTER",
                     "type": "Button",
                     "id": "c138f213-871a-4430-9d33-ca0ebcf2db92",
                     "expectedControlType": "Button",
@@ -361,6 +361,14 @@
                     "name": "ESC",
                     "type": "Button",
                     "id": "c45894fc-953f-4b8d-bb39-cfceab8cb152",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": ""
+                },
+                {
+                    "name": "SPACE",
+                    "type": "Button",
+                    "id": "9c7ff876-6c60-4488-9c4a-3e9211248a7b",
                     "expectedControlType": "Button",
                     "processors": "",
                     "interactions": ""
@@ -821,11 +829,11 @@
                 {
                     "name": "",
                     "id": "b70ddf6a-042c-406c-a2bb-3ca8762e0c98",
-                    "path": "<Keyboard>/rightShift",
+                    "path": "<Keyboard>/enter",
                     "interactions": "",
                     "processors": "",
                     "groups": "ControlScheme",
-                    "action": "RIGHT SHIFT",
+                    "action": "ENTER",
                     "isComposite": false,
                     "isPartOfComposite": false
                 },
@@ -859,6 +867,17 @@
                     "processors": "",
                     "groups": "ControlScheme",
                     "action": "ESC",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "a29a220c-5ef2-480f-9225-c109c0764d72",
+                    "path": "<Keyboard>/space",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "ControlScheme",
+                    "action": "SPACE",
                     "isComposite": false,
                     "isPartOfComposite": false
                 }
