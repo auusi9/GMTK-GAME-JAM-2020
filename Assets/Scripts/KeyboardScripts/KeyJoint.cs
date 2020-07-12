@@ -33,7 +33,7 @@ namespace KeyboardScripts
                 {
                     TypingListener.Instance.ShiftPressed();
                 }
-                else if(context.performed)
+                else if(context.canceled)
                 {
                     TypingListener.Instance.ShiftLifted();
                 }
