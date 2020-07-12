@@ -31,7 +31,7 @@ namespace TypingGame
             TypingListener.Instance.NewLetter += NewLetter;
             _score = 0;
             
-            _scoreText.SetText(_score.ToString());
+            _scoreText.SetText("Score: {0}", _score);
             NewRandomWord();
             _gameOverScreen.SetActive(false);
                 
@@ -46,13 +46,13 @@ namespace TypingGame
         {
             if (_thisGameDuration - _currentDuration > 0)
             {
-                _timer.SetText("{0}", _thisGameDuration - _currentDuration);
+                _timer.SetText("Time: {0}", _thisGameDuration - _currentDuration);
                 _currentDuration += Time.deltaTime;
                 return;
             }
 
             _timesUp = true;
-            _timer.SetText("0");
+            _timer.SetText("Time: 0");
             _gameOverScreen.SetActive(true);
             _gameOverText.SetText(_score.ToString());
         }
@@ -75,7 +75,7 @@ namespace TypingGame
                 {
                     _score += _currentWordScore;
                     _thisGameDuration += _currentWordScore;
-                    _scoreText.SetText(_score.ToString());
+                    _scoreText.SetText("Score: {0}", _score);
                     _currentInput = "";
                     _customInput.SetText(_currentInput);
                     NewRandomWord();
