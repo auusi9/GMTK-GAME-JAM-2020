@@ -16,14 +16,14 @@ namespace Objects
 
         private void Start()
         {
-            Vector3 vec = transform.position;
-            vec.y = _defaultY;
-            _camera = Camera.main;
-            _mouseZCoord = _camera.WorldToScreenPoint(vec).z;
+            _camera = Camera.main;   
         }
 
         public void OnMouseDown()
         {
+            Vector3 vec = transform.position;
+            vec.y = _defaultY;
+            _mouseZCoord = _camera.WorldToScreenPoint(vec).z;
             _rigidbody.useGravity = false;
             _mouseOffset = transform.position - GetMouseContactPointWithObjects();
             _mouseOffset.y = 0f;

@@ -32,6 +32,7 @@ namespace TypingGame
             _score = 0;
             
             _scoreText.SetText("Score: {0}", _score);
+            _customInput.SetText("");
             NewRandomWord();
             _gameOverScreen.SetActive(false);
                 
