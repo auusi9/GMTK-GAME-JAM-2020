@@ -13,6 +13,12 @@ public class MailThing : MonoBehaviour
                 TypingListener.Instance.NewDelete += NewDelete;
         }
 
+        private void OnDisable()
+        {
+                TypingListener.Instance.NewLetter -= NewLetter;
+                TypingListener.Instance.NewDelete -= NewDelete;
+        }
+
         private void NewDelete()
         {
                 _mailElement.DeleteLastChar();
