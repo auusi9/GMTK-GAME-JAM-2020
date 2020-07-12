@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="64becbb6-ddbb-4ee1-b35e-ea07de9f894e" name="Default Changelist" comment="" />
+    <list default="true" id="64becbb6-ddbb-4ee1-b35e-ea07de9f894e" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/AusiScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/AusiScene.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/KeyboardScripts/LetterPool.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/KeyboardScripts/LetterPool.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/KeyboardScripts/TypingListener.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/KeyboardScripts/TypingListener.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/TypingGame/TypingGame.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/TypingGame/TypingGame.cs" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -9,42 +14,171 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="false">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/KeyboardScripts/KeyJoint.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="448">
-              <caret line="28" column="5" selection-start-line="28" selection-start-column="5" selection-end-line="28" selection-end-column="5" />
+            <state relative-caret-position="496">
+              <caret line="33" column="52" selection-start-line="33" selection-start-column="52" selection-end-line="33" selection-end-column="52" />
               <folding>
-                <marker date="1594500092519" expanded="true" signature="6:89" ph="..." />
-                <marker date="1594500092519" expanded="true" signature="116:631" ph="{...}" />
-                <marker date="1594500092519" expanded="true" signature="160:629" ph="{...}" />
-                <marker date="1594500092519" expanded="true" signature="300:449" ph="{...}" />
-                <marker date="1594500092519" expanded="true" signature="355:439" ph="{...}" />
-                <marker date="1594500092519" expanded="true" signature="501:556" ph="{...}" />
-                <marker date="1594500092519" expanded="true" signature="590:623" ph="{...}" />
+                <marker date="1594554598885" expanded="false" signature="6:89" ph="..." />
+                <marker date="1594554598885" expanded="true" signature="116:1546" ph="{...}" />
+                <marker date="1594554598885" expanded="true" signature="160:1544" ph="{...}" />
+                <marker date="1594554598885" expanded="true" signature="315:514" ph="{...}" />
+                <marker date="1594554598885" expanded="true" signature="370:504" ph="{...}" />
+                <marker date="1594554598885" expanded="true" signature="566:682" ph="{...}" />
+                <marker date="1594554598885" expanded="true" signature="751:1538" ph="{...}" />
+                <marker date="1594554598885" expanded="true" signature="812:1152" ph="{...}" />
+                <marker date="1594554598885" expanded="true" signature="863:959" ph="{...}" />
+                <marker date="1594554598885" expanded="true" signature="1002:1097" ph="{...}" />
+                <marker date="1594554598885" expanded="true" signature="1200:1528" ph="{...}" />
+                <marker date="1594554598885" expanded="true" signature="1343:1514" ph="{...}" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/KeyboardScripts/KeyboardKey.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="611">
-              <caret line="39" column="83" lean-forward="true" selection-start-line="39" selection-start-column="83" selection-end-line="39" selection-end-column="83" />
+            <state relative-caret-position="-272">
+              <caret line="40" column="37" selection-start-line="40" selection-start-column="37" selection-end-line="40" selection-end-column="37" />
               <folding>
-                <marker date="1594509093870" expanded="true" signature="6:88" ph="..." />
-                <marker date="1594509093870" expanded="true" signature="115:2383" ph="{...}" />
-                <marker date="1594509093870" expanded="true" signature="162:2381" ph="{...}" />
-                <marker date="1594509093870" expanded="true" signature="610:660" ph="{...}" />
-                <marker date="1594509093870" expanded="true" signature="702:796" ph="{...}" />
-                <marker date="1594509093870" expanded="true" signature="829:1429" ph="{...}" />
-                <marker date="1594509093870" expanded="true" signature="1031:1419" ph="{...}" />
-                <marker date="1594509093870" expanded="true" signature="1158:1405" ph="{...}" />
-                <marker date="1594509093870" expanded="true" signature="1507:1804" ph="{...}" />
-                <marker date="1594509093870" expanded="true" signature="1869:2375" ph="{...}" />
-                <marker date="1594509093870" expanded="true" signature="1957:2262" ph="{...}" />
+                <marker date="1594545745989" expanded="false" signature="6:88" ph="..." />
+                <marker date="1594545745989" expanded="true" signature="115:4010" ph="{...}" />
+                <marker date="1594545745989" expanded="true" signature="162:4008" ph="{...}" />
+                <marker date="1594545745989" expanded="true" signature="679:740" ph="{...}" />
+                <marker date="1594545745989" expanded="true" signature="781:889" ph="{...}" />
+                <marker date="1594545745989" expanded="true" signature="949:2343" ph="{...}" />
+                <marker date="1594545745989" expanded="true" signature="984:2289" ph="{...}" />
+                <marker date="1594545745989" expanded="true" signature="2376:2976" ph="{...}" />
+                <marker date="1594545745989" expanded="true" signature="2578:2966" ph="{...}" />
+                <marker date="1594545745989" expanded="true" signature="2705:2952" ph="{...}" />
+                <marker date="1594545745989" expanded="true" signature="3054:3161" ph="{...}" />
+                <marker date="1594545745989" expanded="true" signature="3195:3431" ph="{...}" />
+                <marker date="1594545745989" expanded="true" signature="3496:4002" ph="{...}" />
+                <marker date="1594545745989" expanded="true" signature="3584:3889" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/Scripts/TypingGame/TypingGame.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="363">
+              <caret line="54" column="47" lean-forward="true" selection-start-line="54" selection-start-column="47" selection-end-line="54" selection-end-column="47" />
+              <folding>
+                <marker date="1594556162018" expanded="true" signature="6:54" ph="..." />
+                <marker date="1594556162018" expanded="true" signature="76:2589" ph="{...}" />
+                <marker date="1594556162018" expanded="true" signature="122:2587" ph="{...}" />
+                <marker date="1594556162018" expanded="true" signature="802:1097" ph="{...}" />
+                <marker date="1594556162018" expanded="true" signature="1131:1211" ph="{...}" />
+                <marker date="1594556162018" expanded="true" signature="1242:1625" ph="{...}" />
+                <marker date="1594556162018" expanded="true" signature="1306:1483" ph="{...}" />
+                <marker date="1594556162018" expanded="true" signature="1672:2261" ph="{...}" />
+                <marker date="1594556162018" expanded="true" signature="1730:2180" ph="{...}" />
+                <marker date="1594556162018" expanded="true" signature="2004:2166" ph="{...}" />
+                <marker date="1594556162018" expanded="true" signature="2197:2251" ph="{...}" />
+                <marker date="1594556162018" expanded="true" signature="2292:2422" ph="{...}" />
+                <marker date="1594556162018" expanded="true" signature="2460:2581" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../ZeptoLabTest/ZeptoLabTest/Assets/Scripts/UI/TimeLeftUI.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="384">
+              <caret line="28" column="38" lean-forward="true" selection-start-line="28" selection-start-column="38" selection-end-line="28" selection-end-column="38" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/Scripts/KeyboardScripts/TypingListener.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="427">
+              <caret line="34" column="20" selection-start-line="34" selection-start-column="20" selection-end-line="34" selection-end-column="20" />
+              <folding>
+                <marker date="1594554916151" expanded="true" signature="6:44" ph="..." />
+                <marker date="1594554916151" expanded="true" signature="71:2404" ph="{...}" />
+                <marker date="1594554916151" expanded="true" signature="121:2402" ph="{...}" />
+                <marker date="1594554916151" expanded="true" signature="286:335" ph="{...}" />
+                <marker date="1594554916151" expanded="true" signature="387:822" ph="{...}" />
+                <marker date="1594554916151" expanded="true" signature="504:812" ph="{...}" />
+                <marker date="1594554916151" expanded="true" signature="553:642" ph="{...}" />
+                <marker date="1594554916151" expanded="true" signature="663:752" ph="{...}" />
+                <marker date="1594554916151" expanded="true" signature="858:912" ph="{...}" />
+                <marker date="1594554916151" expanded="true" signature="947:1002" ph="{...}" />
+                <marker date="1594554916151" expanded="true" signature="1062:2396" ph="{...}" />
+                <marker date="1594554916151" expanded="true" signature="1097:2386" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/Scripts/TypingGame/RandomConfigurations.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="224">
+              <caret line="14" column="9" selection-start-line="14" selection-start-column="9" selection-end-line="14" selection-end-column="9" />
+              <folding>
+                <marker date="1594553740868" expanded="true" signature="40:449" ph="{...}" />
+                <marker date="1594553740868" expanded="true" signature="217:447" ph="{...}" />
+                <marker date="1594553740868" expanded="true" signature="362:441" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../RovioTest/RovioChallenge/Assets/Code/Configurations/GameConfiguration.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="416">
+              <caret line="28" selection-start-line="28" selection-end-line="28" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/Scripts/KeyboardScripts/LetterPool.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-720">
+              <caret line="9" column="316" selection-start-line="9" selection-start-column="316" selection-end-line="9" selection-end-column="316" />
+              <folding>
+                <marker date="1594545687590" expanded="true" signature="6:67" ph="..." />
+                <marker date="1594545687590" expanded="true" signature="94:4026" ph="{...}" />
+                <marker date="1594545687590" expanded="true" signature="140:4024" ph="{...}" />
+                <marker date="1594545687590" expanded="true" signature="202:807" ph="{...}" />
+                <marker date="1594545687590" expanded="true" signature="1394:1443" ph="{...}" />
+                <marker date="1594545687590" expanded="true" signature="1473:1689" ph="{...}" />
+                <marker date="1594545687590" expanded="true" signature="1736:2301" ph="{...}" />
+                <marker date="1594545687590" expanded="true" signature="1858:1974" ph="{...}" />
+                <marker date="1594545687590" expanded="true" signature="2047:2265" ph="{...}" />
+                <marker date="1594545687590" expanded="true" signature="2334:3668" ph="{...}" />
+                <marker date="1594545687590" expanded="true" signature="2379:2514" ph="{...}" />
+                <marker date="1594545687590" expanded="true" signature="2702:3456" ph="{...}" />
+                <marker date="1594545687590" expanded="true" signature="3706:3837" ph="{...}" />
+                <marker date="1594545687590" expanded="true" signature="3771:3827" ph="{...}" />
+                <marker date="1594545687590" expanded="true" signature="3873:4018" ph="{...}" />
+                <marker date="1594545687590" expanded="true" signature="3947:4008" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/Scripts/InputTest.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="96">
+              <caret line="7" column="27" selection-start-line="7" selection-start-column="27" selection-end-line="12" selection-end-column="9" />
+              <folding>
+                <marker date="1594481890709" expanded="false" signature="6:49" ph="..." />
+                <marker date="1594481890709" expanded="true" signature="89:252" ph="{...}" />
+                <marker date="1594481890709" expanded="true" signature="157:250" ph="{...}" />
+                <marker date="1594481890709" expanded="true" signature="194:244" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -53,8 +187,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/Objects/DraggableObject.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="400">
-              <caret line="26" column="21" lean-forward="true" selection-start-line="26" selection-start-column="21" selection-end-line="26" selection-end-column="21" />
+            <state>
+              <caret line="1" column="30" selection-start-line="1" selection-start-column="30" selection-end-line="1" selection-end-column="30" />
               <folding>
                 <marker date="1594506342721" expanded="false" signature="6:49" ph="..." />
                 <marker date="1594506342721" expanded="true" signature="68:1843" ph="{...}" />
@@ -66,50 +200,6 @@
                 <marker date="1594506342721" expanded="true" signature="1449:1567" ph="{...}" />
                 <marker date="1594506342721" expanded="true" signature="1616:1740" ph="{...}" />
                 <marker date="1594506342721" expanded="true" signature="1773:1835" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Assets/Scripts/DetectMouseClicks.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="576">
-              <caret line="39" column="43" selection-start-line="39" selection-start-column="43" selection-end-line="39" selection-end-column="43" />
-              <folding>
-                <marker date="1594505039321" expanded="false" signature="6:97" ph="..." />
-                <marker date="1594505039321" expanded="true" signature="145:1507" ph="{...}" />
-                <marker date="1594505039321" expanded="true" signature="360:702" ph="{...}" />
-                <marker date="1594505039321" expanded="true" signature="424:471" ph="{...}" />
-                <marker date="1594505039321" expanded="true" signature="532:579" ph="{...}" />
-                <marker date="1594505039321" expanded="true" signature="651:696" ph="{...}" />
-                <marker date="1594505039321" expanded="true" signature="734:1168" ph="{...}" />
-                <marker date="1594505039321" expanded="true" signature="903:1162" ph="{...}" />
-                <marker date="1594505039321" expanded="true" signature="1040:1152" ph="{...}" />
-                <marker date="1594505039321" expanded="true" signature="1200:1319" ph="{...}" />
-                <marker date="1594505039321" expanded="true" signature="1255:1313" ph="{...}" />
-                <marker date="1594505039321" expanded="true" signature="1349:1505" ph="{...}" />
-                <marker date="1594505039321" expanded="true" signature="1404:1460" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Assets/Scripts/MouseClicksDetector.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="624">
-              <caret line="40" column="29" selection-start-line="40" selection-start-column="29" selection-end-line="40" selection-end-column="29" />
-              <folding>
-                <marker date="1594505433529" expanded="false" signature="6:44" ph="..." />
-                <marker date="1594505433529" expanded="true" signature="94:840" ph="{...}" />
-                <marker date="1594505433529" expanded="true" signature="277:407" ph="{...}" />
-                <marker date="1594505433529" expanded="true" signature="314:366" ph="{...}" />
-                <marker date="1594505433529" expanded="true" signature="450:582" ph="{...}" />
-                <marker date="1594505433529" expanded="true" signature="487:539" ph="{...}" />
-                <marker date="1594505433529" expanded="true" signature="625:757" ph="{...}" />
-                <marker date="1594505433529" expanded="true" signature="662:714" ph="{...}" />
-                <marker date="1594505433529" expanded="true" signature="788:838" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -127,21 +217,33 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Editor/SetPivot.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Drawer/Drawer.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/KeyboardScripts/LetterPool.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/KeyboardScripts/KeyJoint.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/TypingGame/RandomConfigurations.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Helpers/ComponentPool.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="mock:///Dummy.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../ZeptoLabTest/ZeptoLabTest/Assets/Scripts/UI/TimeLeftUI.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/D1422B3F-C937-4601-8C92-EDA852993B93/9a/6741d235/KeyCode.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/D1422B3F-C937-4601-8C92-EDA852993B93/9e/0b2fa001/UnityEventBase.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///Dummy.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/StateAnimatorBehaviours/DeactivateObject.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../ZeptoLabTest/ZeptoLabTest/Assets/Scripts/UI/ScoreUI.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/TypingGame/TypingGame.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Editor/SetPivot.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Objects/DraggableObject.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/KeyboardScripts/KeyboardKey.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/TutorialInfo/Scripts/Editor/ReadmeEditor.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Mouse/TableMouse.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/KeyboardScripts/KeyJoint.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.inputsystem@1.0.0/InputSystem/Controls/Vector2Control.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/DetectMouseClicks.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/SmoothCamera.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Shaders/TMP_Bitmap-Mobile.shader" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/KeyboardScripts/TypingListener.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/MouseClicksDetector.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../RovioTest/RovioChallenge/Assets/Code/Configurations/GameConfiguration.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/InputTest.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Shaders/TMP_SDF Overlay.shader" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/D1422B3F-C937-4601-8C92-EDA852993B93/9e/0b2fa001/UnityEventBase.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -155,11 +257,18 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/Drawer/Drawer.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/SmoothCamera.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/KeyCodeScripts.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/KeyboardScripts/KeyJoint.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/DetectMouseClicks.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/MouseClicksDetector.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Objects/DraggableObject.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Helpers/Class1.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Helpers/ComponentPool.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/KeyboardScripts/LetterPool.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/KeyboardScripts/KeyboardKey.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/StateAnimatorBehaviours/DeactivateObject.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/TypingGame/RandomConfigurations.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/KeyboardScripts/KeyJoint.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/KeyboardScripts/TypingListener.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/TypingGame/TypingGame.cs" />
       </list>
     </option>
   </component>
@@ -175,6 +284,11 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="SolutionExplorer">
+        <option name="show-all-files" value="false" />
+      </pane>
+      <pane id="FileSystemExplorer" />
+      <pane id="AssemblyExplorer" />
       <pane id="UnityExplorer">
         <subPane>
           <expand>
@@ -191,13 +305,13 @@
               <item name="Project" type="e068e287:UnityExplorerRootNode" />
               <item name="Assets" type="48f920db:UnityExplorerNode$AssetsRoot" />
               <item name="Scripts" type="1045f7f1:UnityExplorerNode" />
-              <item name="KeyboardScripts" type="1045f7f1:UnityExplorerNode" />
+              <item name="Helpers" type="1045f7f1:UnityExplorerNode" />
             </path>
             <path>
               <item name="Project" type="e068e287:UnityExplorerRootNode" />
               <item name="Assets" type="48f920db:UnityExplorerNode$AssetsRoot" />
               <item name="Scripts" type="1045f7f1:UnityExplorerNode" />
-              <item name="Objects" type="1045f7f1:UnityExplorerNode" />
+              <item name="KeyboardScripts" type="1045f7f1:UnityExplorerNode" />
             </path>
             <path>
               <item name="Project" type="e068e287:UnityExplorerRootNode" />
@@ -209,11 +323,6 @@
         <option name="show-hidden-items" value="false" />
         <option name="show-project-names" value="true" />
       </pane>
-      <pane id="AssemblyExplorer" />
-      <pane id="FileSystemExplorer" />
-      <pane id="SolutionExplorer">
-        <option name="show-all-files" value="false" />
-      </pane>
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -222,6 +331,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -242,10 +352,10 @@
       <option name="pid" />
       <method v="2" />
     </configuration>
-    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
+    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost" pid="29856">
       <option name="allowRunningInParallel" value="false" />
       <option name="listenPortForConnections" value="false" />
-      <option name="pid" />
+      <option name="pid" value="29856" />
       <method v="2" />
     </configuration>
   </component>
@@ -260,11 +370,12 @@
       <option name="presentableId" value="Default" />
       <updated>1594458803718</updated>
       <workItem from="1594458824141" duration="26536000" />
+      <workItem from="1594539554564" duration="12158000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="26536000" />
+    <option name="totallyTimeSpent" value="38694000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -277,21 +388,12 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="2576" height="1416" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info id="Favorites" side_tool="true" />
-      <window_info id="Image Layers" />
-      <window_info id="Capture Tool" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25198728" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="NuGet" />
-      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Unity" />
-      <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Unit Tests" />
-      <window_info anchor="bottom" id="Terminal" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
-      <window_info anchor="bottom" id="Database Changes" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Capture Tool" order="3" />
+      <window_info id="Favorites" order="4" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" />
@@ -299,12 +401,20 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Capture Analysis" />
-      <window_info anchor="right" id="Errors In Solution" />
-      <window_info anchor="right" id="Database" />
+      <window_info anchor="bottom" id="NuGet" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="9" />
+      <window_info anchor="bottom" id="Unity" order="10" />
+      <window_info anchor="bottom" id="Database Changes" order="11" />
+      <window_info anchor="bottom" id="Unit Tests" order="12" />
+      <window_info anchor="bottom" id="Terminal" order="13" />
+      <window_info anchor="bottom" id="Event Log" order="14" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Capture Analysis" order="3" />
+      <window_info anchor="right" id="Errors In Solution" order="4" />
+      <window_info anchor="right" id="Database" order="5" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -320,20 +430,186 @@
           <option name="timeStamp" value="1" />
         </breakpoint>
         <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/Assets/Scripts/Objects/DraggableObject.cs</url>
-          <line>26</line>
-          <properties documentPath="$PROJECT_DIR$/Assets/Scripts/Objects/DraggableObject.cs" initialLine="26">
+          <url>file://$PROJECT_DIR$/Assets/Scripts/KeyboardScripts/KeyJoint.cs</url>
+          <line>48</line>
+          <properties documentPath="$PROJECT_DIR$/Assets/Scripts/KeyboardScripts/KeyJoint.cs" initialLine="34">
             <startOffsets>
-              <option value="690" />
+              <option value="1382" />
             </startOffsets>
             <endOffsets>
-              <option value="720" />
+              <option value="1422" />
             </endOffsets>
           </properties>
-          <option name="timeStamp" value="2" />
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Assets/Scripts/KeyboardScripts/LetterPool.cs</url>
+          <line>66</line>
+          <properties documentPath="$PROJECT_DIR$/Assets/Scripts/KeyboardScripts/LetterPool.cs" initialLine="66">
+            <startOffsets>
+              <option value="2540" />
+            </startOffsets>
+            <endOffsets>
+              <option value="2578" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Assets/Scripts/KeyboardScripts/LetterPool.cs</url>
+          <line>68</line>
+          <properties documentPath="$PROJECT_DIR$/Assets/Scripts/KeyboardScripts/LetterPool.cs" initialLine="68">
+            <startOffsets>
+              <option value="2592" />
+            </startOffsets>
+            <endOffsets>
+              <option value="2613" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Assets/Scripts/KeyboardScripts/LetterPool.cs</url>
+          <line>91</line>
+          <properties documentPath="$PROJECT_DIR$/Assets/Scripts/KeyboardScripts/LetterPool.cs" initialLine="91">
+            <startOffsets>
+              <option value="3482" />
+            </startOffsets>
+            <endOffsets>
+              <option value="3534" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="11" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Assets/Scripts/TypingGame/TypingGame.cs</url>
+          <line>64</line>
+          <properties documentPath="$PROJECT_DIR$/Assets/Scripts/TypingGame/TypingGame.cs" initialLine="46">
+            <startOffsets>
+              <option value="2073" />
+            </startOffsets>
+            <endOffsets>
+              <option value="2111" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="12" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Assets/Scripts/TypingGame/TypingGame.cs</url>
+          <line>56</line>
+          <properties documentPath="$PROJECT_DIR$/Assets/Scripts/TypingGame/TypingGame.cs" initialLine="38">
+            <startOffsets>
+              <option value="1775" />
+            </startOffsets>
+            <endOffsets>
+              <option value="1800" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="13" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Assets/Scripts/TypingGame/TypingGame.cs</url>
+          <line>54</line>
+          <properties documentPath="$PROJECT_DIR$/Assets/Scripts/TypingGame/TypingGame.cs" initialLine="36">
+            <startOffsets>
+              <option value="1695" />
+            </startOffsets>
+            <endOffsets>
+              <option value="1730" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="14" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Assets/Scripts/KeyboardScripts/TypingListener.cs</url>
+          <line>30</line>
+          <properties documentPath="$PROJECT_DIR$/Assets/Scripts/KeyboardScripts/TypingListener.cs" initialLine="26">
+            <startOffsets>
+              <option value="769" />
+            </startOffsets>
+            <endOffsets>
+              <option value="798" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="15" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Assets/Scripts/TypingGame/TypingGame.cs</url>
+          <line>70</line>
+          <properties documentPath="$PROJECT_DIR$/Assets/Scripts/TypingGame/TypingGame.cs" initialLine="52">
+            <startOffsets>
+              <option value="2228" />
+            </startOffsets>
+            <endOffsets>
+              <option value="2237" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="16" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Assets/Scripts/KeyboardScripts/TypingListener.cs</url>
+          <line>36</line>
+          <properties documentPath="$PROJECT_DIR$/Assets/Scripts/KeyboardScripts/TypingListener.cs" initialLine="36">
+            <startOffsets>
+              <option value="881" />
+            </startOffsets>
+            <endOffsets>
+              <option value="902" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="20" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Assets/Scripts/KeyboardScripts/TypingListener.cs</url>
+          <line>41</line>
+          <properties documentPath="$PROJECT_DIR$/Assets/Scripts/KeyboardScripts/TypingListener.cs" initialLine="41">
+            <startOffsets>
+              <option value="970" />
+            </startOffsets>
+            <endOffsets>
+              <option value="992" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="21" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Assets/Scripts/KeyboardScripts/KeyJoint.cs</url>
+          <line>33</line>
+          <properties documentPath="$PROJECT_DIR$/Assets/Scripts/KeyboardScripts/KeyJoint.cs" initialLine="33">
+            <startOffsets>
+              <option value="902" />
+            </startOffsets>
+            <endOffsets>
+              <option value="941" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="22" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Assets/Scripts/KeyboardScripts/KeyJoint.cs</url>
+          <line>37</line>
+          <properties documentPath="$PROJECT_DIR$/Assets/Scripts/KeyboardScripts/KeyJoint.cs" initialLine="37">
+            <startOffsets>
+              <option value="1041" />
+            </startOffsets>
+            <endOffsets>
+              <option value="1079" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="23" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
+  </component>
+  <component name="debuggerHistoryManager">
+    <expressions id="setValue">
+      <expression>
+        <expression-string>KeyCode.Space</expression-string>
+        <language-id>C#</language-id>
+        <custom-info>RiderImportsList:</custom-info>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+    </expressions>
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Shaders/TMP_SDF Overlay.shader">
@@ -414,13 +690,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Drawer.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="2" lean-forward="true" selection-start-column="2" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Drawer.cs" />
     <entry file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.inputsystem@1.0.0/InputSystem/Controls/Vector2Control.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="336">
@@ -487,26 +757,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/InputTest.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="10" column="9" selection-start-line="10" selection-start-column="9" selection-end-line="10" selection-end-column="9" />
-          <folding>
-            <marker date="1594481890709" expanded="true" signature="6:49" ph="..." />
-            <marker date="1594481890709" expanded="true" signature="89:252" ph="{...}" />
-            <marker date="1594481890709" expanded="true" signature="157:250" ph="{...}" />
-            <marker date="1594481890709" expanded="true" signature="194:244" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/KeyCodeScripts.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="29" selection-start-column="29" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/KeyCodeScripts.cs" />
     <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/D1422B3F-C937-4601-8C92-EDA852993B93/9e/0b2fa001/UnityEventBase.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-3035">
@@ -514,18 +765,382 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/KeyboardScripts/KeyJoint.cs">
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Helpers/Class1.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="448">
-          <caret line="28" column="5" selection-start-line="28" selection-start-column="5" selection-end-line="28" selection-end-column="5" />
+        <state relative-caret-position="64">
+          <caret line="4" column="8" selection-start-line="4" selection-start-column="8" selection-end-line="4" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Helpers/ComponentPool.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="384">
+          <caret line="25" column="13" selection-start-line="25" selection-start-column="13" selection-end-line="25" selection-end-column="13" />
           <folding>
-            <marker date="1594500092519" expanded="true" signature="6:89" ph="..." />
-            <marker date="1594500092519" expanded="true" signature="116:631" ph="{...}" />
-            <marker date="1594500092519" expanded="true" signature="160:629" ph="{...}" />
-            <marker date="1594500092519" expanded="true" signature="300:449" ph="{...}" />
-            <marker date="1594500092519" expanded="true" signature="355:439" ph="{...}" />
-            <marker date="1594500092519" expanded="true" signature="501:556" ph="{...}" />
-            <marker date="1594500092519" expanded="true" signature="590:623" ph="{...}" />
+            <marker date="1594540989330" expanded="false" signature="6:52" ph="..." />
+            <marker date="1594540989330" expanded="true" signature="71:1586" ph="{...}" />
+            <marker date="1594540989330" expanded="true" signature="127:1584" ph="{...}" />
+            <marker date="1594540989330" expanded="true" signature="424:823" ph="{...}" />
+            <marker date="1594540989330" expanded="true" signature="597:681" ph="{...}" />
+            <marker date="1594540989330" expanded="true" signature="733:813" ph="{...}" />
+            <marker date="1594540989330" expanded="true" signature="856:1018" ph="{...}" />
+            <marker date="1594540989330" expanded="true" signature="899:967" ph="{...}" />
+            <marker date="1594540989330" expanded="true" signature="1057:1258" ph="{...}" />
+            <marker date="1594540989330" expanded="true" signature="1298:1397" ph="{...}" />
+            <marker date="1594540989330" expanded="true" signature="1444:1578" ph="{...}" />
+            <marker date="1594540989330" expanded="true" signature="1503:1568" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/D1422B3F-C937-4601-8C92-EDA852993B93/9a/6741d235/KeyCode.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="11" column="14" selection-start-line="11" selection-start-column="14" selection-end-line="11" selection-end-column="14" />
+          <folding>
+            <marker date="1594541658084" expanded="true" signature="0:309" ph="/* Decompiled with JetBrains decompiler ... */" />
+            <marker date="1594541658084" expanded="true" signature="332:40287" ph="{...}" />
+            <marker date="1594541658084" expanded="true" signature="337:479" ph="///   &lt;para&gt;Key codes returned by Event.keyCode. These map directly to a physical key on the keyboard.&lt;/para&gt; ... " />
+            <marker date="1594541658084" expanded="true" signature="501:40285" ph="{...}" />
+            <marker date="1594541658084" expanded="true" signature="510:625" ph="///   &lt;para&gt;Not assigned (never returned as the result of a keystroke).&lt;/para&gt; ... " />
+            <marker date="1594541658084" expanded="true" signature="644:718" ph="///   &lt;para&gt;The backspace key.&lt;/para&gt; ... " />
+            <marker date="1594541658084" expanded="true" signature="742:810" ph="///   &lt;para&gt;The tab key.&lt;/para&gt; ... " />
+            <marker date="1594541658084" expanded="true" signature="828:898" ph="///   &lt;para&gt;The Clear key.&lt;/para&gt; ... " />
+            <marker date="1594541658084" expanded="true" signature="933:1000" ph="///   &lt;para&gt;Return key.&lt;/para&gt; ... " />
+            <marker date="1594541658084" expanded="true" signature="1036:1113" ph="///   &lt;para&gt;Pause on PC machines.&lt;/para&gt; ... " />
+            <marker date="1594541658084" expanded="true" signature="1148:1215" ph="///   &lt;para&gt;Escape key.&lt;/para&gt; ... " />
+            <marker date="1594541658084" expanded="true" signature="1251:1317" ph="///   &lt;para&gt;Space key.&lt;/para&gt; ... " />
+            <marker date="1594541658084" expanded="true" signature="1352:1433" ph="///   &lt;para&gt;Exclamation mark key '!'.&lt;/para&gt; ... " />
+            <marker date="1594541658084" expanded="true" signature="1470:1547" ph="///   &lt;para&gt;Double quote key '&quot;'.&lt;/para&gt; ... " />
+            <marker date="1594541658084" expanded="true" signature="1588:1657" ph="///   &lt;para&gt;Hash key '##'.&lt;/para&gt; ... " />
+            <marker date="1594541658084" expanded="true" signature="1691:1767" ph="///   &lt;para&gt;Dollar sign key '$'.&lt;/para&gt; ... " />
+            <marker date="1594541658084" expanded="true" signature="1803:1875" ph="///   &lt;para&gt;Percent '%' key.&lt;/para&gt; ... " />
+            <marker date="1594541658084" expanded="true" signature="1912:1990" ph="///   &lt;para&gt;Ampersand key '&amp;amp;'.&lt;/para&gt; ... " />
+            <marker date="1594541658084" expanded="true" signature="2029:2097" ph="///   &lt;para&gt;Quote key '.&lt;/para&gt; ... " />
+            <marker date="1594541658084" expanded="true" signature="2132:2213" ph="///   &lt;para&gt;Left Parenthesis key '('.&lt;/para&gt; ... " />
+            <marker date="1594541658084" expanded="true" signature="2252:2334" ph="///   &lt;para&gt;Right Parenthesis key ')'.&lt;/para&gt; ... " />
+            <marker date="1594541658084" expanded="true" signature="2374:2447" ph="///   &lt;para&gt;Asterisk key '*'.&lt;/para&gt; ... " />
+            <marker date="1594541658084" expanded="true" signature="2485:2554" ph="///   &lt;para&gt;Plus key '+'.&lt;/para&gt; ... " />
+            <marker date="1594541658084" expanded="true" signature="2588:2658" ph="///   &lt;para&gt;Comma ',' key.&lt;/para&gt; ... " />
+            <marker date="1594541658084" expanded="true" signature="2693:2763" ph="///   &lt;para&gt;Minus '-' key.&lt;/para&gt; ... " />
+            <marker date="1594541658084" expanded="true" signature="2798:2869" ph="///   &lt;para&gt;Period '.' key.&lt;/para&gt; ... " />
+            <marker date="1594541658084" expanded="true" signature="2905:2975" ph="///   &lt;para&gt;Slash '/' key.&lt;/para&gt; ... " />
+            <marker date="1594541658084" expanded="true" signature="3010:3118" ph="///   &lt;para&gt;The '0' key on the top of the alphanumeric keyboard.&lt;/para&gt; ... " />
+            <marker date="1594541658084" expanded="true" signature="3154:3262" ph="///   &lt;para&gt;The '1' key on the top of the alphanumeric keyboard.&lt;/para&gt; ... " />
+            <marker date="1594541658084" expanded="true" signature="3298:3406" ph="///   &lt;para&gt;The '2' key on the top of the alphanumeric keyboard.&lt;/para&gt; ... " />
+            <marker date="1594541658084" expanded="true" signature="3442:3550" ph="///   &lt;para&gt;The '3' key on the top of the alphanumeric keyboard.&lt;/para&gt; ... " />
+            <marker date="1594541658084" expanded="true" signature="3586:3694" ph="///   &lt;para&gt;The '4' key on the top of the alphanumeric keyboard.&lt;/para&gt; ... " />
+            <marker date="1594541658084" expanded="true" signature="3730:3838" ph="///   &lt;para&gt;The '5' key on the top of the alphanumeric keyboard.&lt;/para&gt; ... " />
+            <marker date="1594541658084" expanded="true" signature="3874:3982" ph="///   &lt;para&gt;The '6' key on the top of the alphanumeric keyboard.&lt;/para&gt; ... " />
+            <marker date="1594541658084" expanded="true" signature="4018:4126" ph="///   &lt;para&gt;The '7' key on the top of the alphanumeric keyboard.&lt;/para&gt; ... " />
+            <marker date="1594541658084" expanded="true" signature="4162:4270" ph="///   &lt;para&gt;The '8' key on the top of the alphanumeric keyboard.&lt;/para&gt; ... " />
+            <marker date="1594541658084" expanded="true" signature="4306:4414" ph="///   &lt;para&gt;The '9' key on the top of the alphanumeric keyboard.&lt;/para&gt; ... " />
+            <marker date="1594541658084" expanded="true" signature="4450:4520" ph="///   &lt;para&gt;Colon ':' key.&lt;/para&gt; ... " />
+            <marker date="1594541658084" expanded="true" signature="4555:4629" ph="///   &lt;para&gt;Semicolon ';' key.&lt;/para&gt; ... " />
+            <marker date="1594541658084" expanded="true" signature="4668:4745" ph="///   &lt;para&gt;Less than '&amp;lt;' key.&lt;/para&gt; ... " />
+            <marker date="1594541658084" expanded="true" signature="4779:4850" ph="///   &lt;para&gt;Equals '=' key.&lt;/para&gt; ... " />
+            <marker date="1594541658084" expanded="true" signature="4886:4966" ph="///   &lt;para&gt;Greater than '&amp;gt;' key.&lt;/para&gt; ... " />
+            <marker date="1594541658084" expanded="true" signature="5003:5081" ph="///   &lt;para&gt;Question mark '?' key.&lt;/para&gt; ... " />
+            <marker date="1594541658084" expanded="true" signature="5119:5186" ph="///   &lt;para&gt;At key '@'.&lt;/para&gt; ... " />
+            <marker date="1594541658084" expanded="true" signature="5218:5302" ph="///   &lt;para&gt;Left square bracket key '['.&lt;/para&gt; ... " />
+            <marker date="1594541658084" expanded="true" signature="5343:5417" ph="///   &lt;para&gt;Backslash key '\'.&lt;/para&gt; ... " />
+            <marker date="1594541658084" expanded="true" signature="5456:5541" ph="///   &lt;para&gt;Right square bracket key ']'.&lt;/para&gt; ... " />
+            <marker date="1594541658084" expanded="true" signature="5583:5653" ph="///   &lt;para&gt;Caret key '^'.&lt;/para&gt; ... " />
+            <marker date="1594541658084" expanded="true" signature="5688:5763" ph="///   &lt;para&gt;Underscore '_' key.&lt;/para&gt; ... " />
+            <marker date="1594541658084" expanded="true" signature="5803:5878" ph="///   &lt;para&gt;Back quote key '`'.&lt;/para&gt; ... " />
+            <marker date="1594541658084" expanded="true" signature="5917:5981" ph="///   &lt;para&gt;'a' key.&lt;/para&gt; ... " />
+            <marker date="1594541658084" expanded="true" signature="6012:6076" ph="///   &lt;para&gt;'b' key.&lt;/para&gt; ... " />
+            <marker date="1594541658084" expanded="true" signature="6107:6171" ph="///   &lt;para&gt;'c' key.&lt;/para&gt; ... " />
+            <marker date="1594541658084" expanded="true" signature="6202:6266" ph="///   &lt;para&gt;'d' key.&lt;/para&gt; ... " />
+            <marker date="1594541658084" expanded="true" signature="6298:6362" ph="///   &lt;para&gt;'e' key.&lt;/para&gt; ... " />
+            <marker date="1594541658084" expanded="true" signature="6394:6458" ph="///   &lt;para&gt;'f' key.&lt;/para&gt; ... " />
+            <marker date="1594541658084" expanded="true" signature="6490:6554" ph="///   &lt;para&gt;'g' key.&lt;/para&gt; ... " />
+            <marker date="1594541658084" expanded="true" signature="6586:6650" ph="///   &lt;para&gt;'h' key.&lt;/para&gt; ... " />
+            <marker date="1594541658084" expanded="true" signature="6682:6746" ph="///   &lt;para&gt;'i' key.&lt;/para&gt; ... " />
+            <marker date="1594541658084" expanded="true" signature="6778:6842" ph="///   &lt;para&gt;'j' key.&lt;/para&gt; ... " />
+            <marker date="1594541658084" expanded="true" signature="6874:6938" ph="///   &lt;para&gt;'k' key.&lt;/para&gt; ... " />
+            <marker date="1594541658084" expanded="true" signature="6970:7034" ph="///   &lt;para&gt;'l' key.&lt;/para&gt; ... " />
+            <marker date="1594541658084" expanded="true" signature="7066:7130" ph="///   &lt;para&gt;'m' key.&lt;/para&gt; ... " />
+            <marker date="1594541658084" expanded="true" signature="7162:7226" ph="///   &lt;para&gt;'n' key.&lt;/para&gt; ... " />
+            <marker date="1594541658084" expanded="true" signature="7258:7322" ph="///   &lt;para&gt;'o' key.&lt;/para&gt; ... " />
+            <marker date="1594541658084" expanded="true" signature="7354:7418" ph="///   &lt;para&gt;'p' key.&lt;/para&gt; ... " />
+            <marker date="1594541658084" expanded="true" signature="7450:7514" ph="///   &lt;para&gt;'q' key.&lt;/para&gt; ... " />
+            <marker date="1594541658084" expanded="true" signature="7546:7610" ph="///   &lt;para&gt;'r' key.&lt;/para&gt; ... " />
+            <marker date="1594541658084" expanded="true" signature="7642:7706" ph="///   &lt;para&gt;'s' key.&lt;/para&gt; ... " />
+            <marker date="1594541658084" expanded="true" signature="7738:7802" ph="///   &lt;para&gt;'t' key.&lt;/para&gt; ... " />
+            <marker date="1594541658084" expanded="true" signature="7834:7898" ph="///   &lt;para&gt;'u' key.&lt;/para&gt; ... " />
+            <marker date="1594541658084" expanded="true" signature="7930:7994" ph="///   &lt;para&gt;'v' key.&lt;/para&gt; ... " />
+            <marker date="1594541658084" expanded="true" signature="8026:8090" ph="///   &lt;para&gt;'w' key.&lt;/para&gt; ... " />
+            <marker date="1594541658084" expanded="true" signature="8122:8186" ph="///   &lt;para&gt;'x' key.&lt;/para&gt; ... " />
+            <marker date="1594541658084" expanded="true" signature="8218:8282" ph="///   &lt;para&gt;'y' key.&lt;/para&gt; ... " />
+            <marker date="1594541658084" expanded="true" signature="8314:8378" ph="///   &lt;para&gt;'z' key.&lt;/para&gt; ... " />
+            <marker date="1594541658084" expanded="true" signature="8410:8493" ph="///   &lt;para&gt;Left curly bracket key '{'.&lt;/para&gt; ... " />
+            <marker date="1594541658084" expanded="true" signature="8540:8609" ph="///   &lt;para&gt;Pipe '|' key.&lt;/para&gt; ... " />
+            <marker date="1594541658084" expanded="true" signature="8644:8728" ph="///   &lt;para&gt;Right curly bracket key '}'.&lt;/para&gt; ... " />
+            <marker date="1594541658084" expanded="true" signature="8776:8846" ph="///   &lt;para&gt;Tilde '~' key.&lt;/para&gt; ... " />
+            <marker date="1594541658084" expanded="true" signature="8882:8961" ph="///   &lt;para&gt;The forward delete key.&lt;/para&gt; ... " />
+            <marker date="1594541658084" expanded="true" signature="8998:9071" ph="///   &lt;para&gt;Numeric keypad 0.&lt;/para&gt; ... " />
+            <marker date="1594541658084" expanded="true" signature="9109:9182" ph="///   &lt;para&gt;Numeric keypad 1.&lt;/para&gt; ... " />
+            <marker date="1594541658084" expanded="true" signature="9220:9293" ph="///   &lt;para&gt;Numeric keypad 2.&lt;/para&gt; ... " />
+            <marker date="1594541658084" expanded="true" signature="9331:9404" ph="///   &lt;para&gt;Numeric keypad 3.&lt;/para&gt; ... " />
+            <marker date="1594541658084" expanded="true" signature="9442:9515" ph="///   &lt;para&gt;Numeric keypad 4.&lt;/para&gt; ... " />
+            <marker date="1594541658084" expanded="true" signature="9553:9626" ph="///   &lt;para&gt;Numeric keypad 5.&lt;/para&gt; ... " />
+            <marker date="1594541658084" expanded="true" signature="9664:9737" ph="///   &lt;para&gt;Numeric keypad 6.&lt;/para&gt; ... " />
+            <marker date="1594541658084" expanded="true" signature="9775:9848" ph="///   &lt;para&gt;Numeric keypad 7.&lt;/para&gt; ... " />
+            <marker date="1594541658084" expanded="true" signature="9886:9959" ph="///   &lt;para&gt;Numeric keypad 8.&lt;/para&gt; ... " />
+            <marker date="1594541658084" expanded="true" signature="9997:10070" ph="///   &lt;para&gt;Numeric keypad 9.&lt;/para&gt; ... " />
+            <marker date="1594541658084" expanded="true" signature="10108:10183" ph="///   &lt;para&gt;Numeric keypad '.'.&lt;/para&gt; ... " />
+            <marker date="1594541658084" expanded="true" signature="10226:10301" ph="///   &lt;para&gt;Numeric keypad '/'.&lt;/para&gt; ... " />
+            <marker date="1594541658084" expanded="true" signature="10344:10419" ph="///   &lt;para&gt;Numeric keypad '*'.&lt;/para&gt; ... " />
+            <marker date="1594541658084" expanded="true" signature="10464:10539" ph="///   &lt;para&gt;Numeric keypad '-'.&lt;/para&gt; ... " />
+            <marker date="1594541658084" expanded="true" signature="10581:10656" ph="///   &lt;para&gt;Numeric keypad '+'.&lt;/para&gt; ... " />
+            <marker date="1594541658084" expanded="true" signature="10697:10774" ph="///   &lt;para&gt;Numeric keypad Enter.&lt;/para&gt; ... " />
+            <marker date="1594541658084" expanded="true" signature="10816:10891" ph="///   &lt;para&gt;Numeric keypad '='.&lt;/para&gt; ... " />
+            <marker date="1594541658084" expanded="true" signature="10934:11003" ph="///   &lt;para&gt;Up arrow key.&lt;/para&gt; ... " />
+            <marker date="1594541658084" expanded="true" signature="11041:11112" ph="///   &lt;para&gt;Down arrow key.&lt;/para&gt; ... " />
+            <marker date="1594541658084" expanded="true" signature="11152:11224" ph="///   &lt;para&gt;Right arrow key.&lt;/para&gt; ... " />
+            <marker date="1594541658084" expanded="true" signature="11265:11336" ph="///   &lt;para&gt;Left arrow key.&lt;/para&gt; ... " />
+            <marker date="1594541658084" expanded="true" signature="11376:11447" ph="///   &lt;para&gt;Insert key key.&lt;/para&gt; ... " />
+            <marker date="1594541658084" expanded="true" signature="11484:11549" ph="///   &lt;para&gt;Home key.&lt;/para&gt; ... " />
+            <marker date="1594541658084" expanded="true" signature="11584:11648" ph="///   &lt;para&gt;End key.&lt;/para&gt; ... " />
+            <marker date="1594541658084" expanded="true" signature="11682:11746" ph="///   &lt;para&gt;Page up.&lt;/para&gt; ... " />
+            <marker date="1594541658084" expanded="true" signature="11783:11849" ph="///   &lt;para&gt;Page down.&lt;/para&gt; ... " />
+            <marker date="1594541658084" expanded="true" signature="11888:11960" ph="///   &lt;para&gt;F1 function key.&lt;/para&gt; ... " />
+            <marker date="1594541658084" expanded="true" signature="11993:12065" ph="///   &lt;para&gt;F2 function key.&lt;/para&gt; ... " />
+            <marker date="1594541658084" expanded="true" signature="12098:12170" ph="///   &lt;para&gt;F3 function key.&lt;/para&gt; ... " />
+            <marker date="1594541658084" expanded="true" signature="12203:12275" ph="///   &lt;para&gt;F4 function key.&lt;/para&gt; ... " />
+            <marker date="1594541658084" expanded="true" signature="12308:12380" ph="///   &lt;para&gt;F5 function key.&lt;/para&gt; ... " />
+            <marker date="1594541658084" expanded="true" signature="12413:12485" ph="///   &lt;para&gt;F6 function key.&lt;/para&gt; ... " />
+            <marker date="1594541658084" expanded="true" signature="12518:12590" ph="///   &lt;para&gt;F7 function key.&lt;/para&gt; ... " />
+            <marker date="1594541658084" expanded="true" signature="12623:12695" ph="///   &lt;para&gt;F8 function key.&lt;/para&gt; ... " />
+            <marker date="1594541658084" expanded="true" signature="12728:12800" ph="///   &lt;para&gt;F9 function key.&lt;/para&gt; ... " />
+            <marker date="1594541658084" expanded="true" signature="12833:12906" ph="///   &lt;para&gt;F10 function key.&lt;/para&gt; ... " />
+            <marker date="1594541658084" expanded="true" signature="12940:13013" ph="///   &lt;para&gt;F11 function key.&lt;/para&gt; ... " />
+            <marker date="1594541658084" expanded="true" signature="13047:13120" ph="///   &lt;para&gt;F12 function key.&lt;/para&gt; ... " />
+            <marker date="1594541658084" expanded="true" signature="13154:13227" ph="///   &lt;para&gt;F13 function key.&lt;/para&gt; ... " />
+            <marker date="1594541658084" expanded="true" signature="13261:13334" ph="///   &lt;para&gt;F14 function key.&lt;/para&gt; ... " />
+            <marker date="1594541658084" expanded="true" signature="13368:13441" ph="///   &lt;para&gt;F15 function key.&lt;/para&gt; ... " />
+            <marker date="1594541658084" expanded="true" signature="13475:13543" ph="///   &lt;para&gt;Numlock key.&lt;/para&gt; ... " />
+            <marker date="1594541658084" expanded="true" signature="13581:13650" ph="///   &lt;para&gt;Capslock key.&lt;/para&gt; ... " />
+            <marker date="1594541658084" expanded="true" signature="13689:13761" ph="///   &lt;para&gt;Scroll lock key.&lt;/para&gt; ... " />
+            <marker date="1594541658084" expanded="true" signature="13802:13874" ph="///   &lt;para&gt;Right shift key.&lt;/para&gt; ... " />
+            <marker date="1594541658084" expanded="true" signature="13915:13986" ph="///   &lt;para&gt;Left shift key.&lt;/para&gt; ... " />
+            <marker date="1594541658084" expanded="true" signature="14026:14100" ph="///   &lt;para&gt;Right Control key.&lt;/para&gt; ... " />
+            <marker date="1594541658084" expanded="true" signature="14143:14216" ph="///   &lt;para&gt;Left Control key.&lt;/para&gt; ... " />
+            <marker date="1594541658084" expanded="true" signature="14258:14328" ph="///   &lt;para&gt;Right Alt key.&lt;/para&gt; ... " />
+            <marker date="1594541658084" expanded="true" signature="14367:14436" ph="///   &lt;para&gt;Left Alt key.&lt;/para&gt; ... " />
+            <marker date="1594541658084" expanded="true" signature="14474:14548" ph="///   &lt;para&gt;Right Command key.&lt;/para&gt; ... " />
+            <marker date="1594541658084" expanded="true" signature="14589:14663" ph="///   &lt;para&gt;Right Command key.&lt;/para&gt; ... " />
+            <marker date="1594541658084" expanded="true" signature="14706:14779" ph="///   &lt;para&gt;Left Command key.&lt;/para&gt; ... " />
+            <marker date="1594541658084" expanded="true" signature="14819:14892" ph="///   &lt;para&gt;Left Command key.&lt;/para&gt; ... " />
+            <marker date="1594541658084" expanded="true" signature="14934:15007" ph="///   &lt;para&gt;Left Windows key.&lt;/para&gt; ... " />
+            <marker date="1594541658084" expanded="true" signature="15049:15123" ph="///   &lt;para&gt;Right Windows key.&lt;/para&gt; ... " />
+            <marker date="1594541658084" expanded="true" signature="15166:15233" ph="///   &lt;para&gt;Alt Gr key.&lt;/para&gt; ... " />
+            <marker date="1594541658084" expanded="true" signature="15269:15334" ph="///   &lt;para&gt;Help key.&lt;/para&gt; ... " />
+            <marker date="1594541658084" expanded="true" signature="15369:15435" ph="///   &lt;para&gt;Print key.&lt;/para&gt; ... " />
+            <marker date="1594541658084" expanded="true" signature="15471:15539" ph="///   &lt;para&gt;Sys Req key.&lt;/para&gt; ... " />
+            <marker date="1594541658084" expanded="true" signature="15576:15642" ph="///   &lt;para&gt;Break key.&lt;/para&gt; ... " />
+            <marker date="1594541658084" expanded="true" signature="15678:15743" ph="///   &lt;para&gt;Menu key.&lt;/para&gt; ... " />
+            <marker date="1594541658084" expanded="true" signature="15778:15869" ph="///   &lt;para&gt;The Left (or primary) mouse button.&lt;/para&gt; ... " />
+            <marker date="1594541658084" expanded="true" signature="15906:16009" ph="///   &lt;para&gt;Right mouse button (or secondary mouse button).&lt;/para&gt; ... " />
+            <marker date="1594541658084" expanded="true" signature="16046:16140" ph="///   &lt;para&gt;Middle mouse button (or third button).&lt;/para&gt; ... " />
+            <marker date="1594541658084" expanded="true" signature="16177:16266" ph="///   &lt;para&gt;Additional (fourth) mouse button.&lt;/para&gt; ... " />
+            <marker date="1594541658084" expanded="true" signature="16303:16391" ph="///   &lt;para&gt;Additional (fifth) mouse button.&lt;/para&gt; ... " />
+            <marker date="1594541658084" expanded="true" signature="16428:16519" ph="///   &lt;para&gt;Additional (or sixth) mouse button.&lt;/para&gt; ... " />
+            <marker date="1594541658084" expanded="true" signature="16556:16649" ph="///   &lt;para&gt;Additional (or seventh) mouse button.&lt;/para&gt; ... " />
+            <marker date="1594541658084" expanded="true" signature="16686:16767" ph="///   &lt;para&gt;Button 0 on any joystick.&lt;/para&gt; ... " />
+            <marker date="1594541658084" expanded="true" signature="16813:16894" ph="///   &lt;para&gt;Button 1 on any joystick.&lt;/para&gt; ... " />
+            <marker date="1594541658084" expanded="true" signature="16940:17021" ph="///   &lt;para&gt;Button 2 on any joystick.&lt;/para&gt; ... " />
+            <marker date="1594541658084" expanded="true" signature="17067:17148" ph="///   &lt;para&gt;Button 3 on any joystick.&lt;/para&gt; ... " />
+            <marker date="1594541658084" expanded="true" signature="17194:17275" ph="///   &lt;para&gt;Button 4 on any joystick.&lt;/para&gt; ... " />
+            <marker date="1594541658084" expanded="true" signature="17321:17402" ph="///   &lt;para&gt;Button 5 on any joystick.&lt;/para&gt; ... " />
+            <marker date="1594541658084" expanded="true" signature="17448:17529" ph="///   &lt;para&gt;Button 6 on any joystick.&lt;/para&gt; ... " />
+            <marker date="1594541658084" expanded="true" signature="17575:17656" ph="///   &lt;para&gt;Button 7 on any joystick.&lt;/para&gt; ... " />
+            <marker date="1594541658084" expanded="true" signature="17702:17783" ph="///   &lt;para&gt;Button 8 on any joystick.&lt;/para&gt; ... " />
+            <marker date="1594541658084" expanded="true" signature="17829:17910" ph="///   &lt;para&gt;Button 9 on any joystick.&lt;/para&gt; ... " />
+            <marker date="1594541658084" expanded="true" signature="17956:18038" ph="///   &lt;para&gt;Button 10 on any joystick.&lt;/para&gt; ... " />
+            <marker date="1594541658084" expanded="true" signature="18085:18167" ph="///   &lt;para&gt;Button 11 on any joystick.&lt;/para&gt; ... " />
+            <marker date="1594541658084" expanded="true" signature="18214:18296" ph="///   &lt;para&gt;Button 12 on any joystick.&lt;/para&gt; ... " />
+            <marker date="1594541658084" expanded="true" signature="18343:18425" ph="///   &lt;para&gt;Button 13 on any joystick.&lt;/para&gt; ... " />
+            <marker date="1594541658084" expanded="true" signature="18472:18554" ph="///   &lt;para&gt;Button 14 on any joystick.&lt;/para&gt; ... " />
+            <marker date="1594541658084" expanded="true" signature="18601:18683" ph="///   &lt;para&gt;Button 15 on any joystick.&lt;/para&gt; ... " />
+            <marker date="1594541658084" expanded="true" signature="18730:18812" ph="///   &lt;para&gt;Button 16 on any joystick.&lt;/para&gt; ... " />
+            <marker date="1594541658084" expanded="true" signature="18859:18941" ph="///   &lt;para&gt;Button 17 on any joystick.&lt;/para&gt; ... " />
+            <marker date="1594541658084" expanded="true" signature="18988:19070" ph="///   &lt;para&gt;Button 18 on any joystick.&lt;/para&gt; ... " />
+            <marker date="1594541658084" expanded="true" signature="19117:19199" ph="///   &lt;para&gt;Button 19 on any joystick.&lt;/para&gt; ... " />
+            <marker date="1594541658084" expanded="true" signature="19246:19329" ph="///   &lt;para&gt;Button 0 on first joystick.&lt;/para&gt; ... " />
+            <marker date="1594541658084" expanded="true" signature="19376:19459" ph="///   &lt;para&gt;Button 1 on first joystick.&lt;/para&gt; ... " />
+            <marker date="1594541658084" expanded="true" signature="19506:19589" ph="///   &lt;para&gt;Button 2 on first joystick.&lt;/para&gt; ... " />
+            <marker date="1594541658084" expanded="true" signature="19636:19719" ph="///   &lt;para&gt;Button 3 on first joystick.&lt;/para&gt; ... " />
+            <marker date="1594541658084" expanded="true" signature="19766:19849" ph="///   &lt;para&gt;Button 4 on first joystick.&lt;/para&gt; ... " />
+            <marker date="1594541658084" expanded="true" signature="19896:19979" ph="///   &lt;para&gt;Button 5 on first joystick.&lt;/para&gt; ... " />
+            <marker date="1594541658084" expanded="true" signature="20026:20109" ph="///   &lt;para&gt;Button 6 on first joystick.&lt;/para&gt; ... " />
+            <marker date="1594541658084" expanded="true" signature="20156:20239" ph="///   &lt;para&gt;Button 7 on first joystick.&lt;/para&gt; ... " />
+            <marker date="1594541658084" expanded="true" signature="20286:20369" ph="///   &lt;para&gt;Button 8 on first joystick.&lt;/para&gt; ... " />
+            <marker date="1594541658084" expanded="true" signature="20416:20499" ph="///   &lt;para&gt;Button 9 on first joystick.&lt;/para&gt; ... " />
+            <marker date="1594541658084" expanded="true" signature="20546:20630" ph="///   &lt;para&gt;Button 10 on first joystick.&lt;/para&gt; ... " />
+            <marker date="1594541658084" expanded="true" signature="20678:20762" ph="///   &lt;para&gt;Button 11 on first joystick.&lt;/para&gt; ... " />
+            <marker date="1594541658084" expanded="true" signature="20810:20894" ph="///   &lt;para&gt;Button 12 on first joystick.&lt;/para&gt; ... " />
+            <marker date="1594541658084" expanded="true" signature="20942:21026" ph="///   &lt;para&gt;Button 13 on first joystick.&lt;/para&gt; ... " />
+            <marker date="1594541658084" expanded="true" signature="21074:21158" ph="///   &lt;para&gt;Button 14 on first joystick.&lt;/para&gt; ... " />
+            <marker date="1594541658084" expanded="true" signature="21206:21290" ph="///   &lt;para&gt;Button 15 on first joystick.&lt;/para&gt; ... " />
+            <marker date="1594541658084" expanded="true" signature="21338:21422" ph="///   &lt;para&gt;Button 16 on first joystick.&lt;/para&gt; ... " />
+            <marker date="1594541658084" expanded="true" signature="21470:21554" ph="///   &lt;para&gt;Button 17 on first joystick.&lt;/para&gt; ... " />
+            <marker date="1594541658084" expanded="true" signature="21602:21686" ph="///   &lt;para&gt;Button 18 on first joystick.&lt;/para&gt; ... " />
+            <marker date="1594541658084" expanded="true" signature="21734:21818" ph="///   &lt;para&gt;Button 19 on first joystick.&lt;/para&gt; ... " />
+            <marker date="1594541658084" expanded="true" signature="21866:21950" ph="///   &lt;para&gt;Button 0 on second joystick.&lt;/para&gt; ... " />
+            <marker date="1594541658084" expanded="true" signature="21997:22081" ph="///   &lt;para&gt;Button 1 on second joystick.&lt;/para&gt; ... " />
+            <marker date="1594541658084" expanded="true" signature="22128:22212" ph="///   &lt;para&gt;Button 2 on second joystick.&lt;/para&gt; ... " />
+            <marker date="1594541658084" expanded="true" signature="22259:22343" ph="///   &lt;para&gt;Button 3 on second joystick.&lt;/para&gt; ... " />
+            <marker date="1594541658084" expanded="true" signature="22390:22474" ph="///   &lt;para&gt;Button 4 on second joystick.&lt;/para&gt; ... " />
+            <marker date="1594541658084" expanded="true" signature="22521:22605" ph="///   &lt;para&gt;Button 5 on second joystick.&lt;/para&gt; ... " />
+            <marker date="1594541658084" expanded="true" signature="22652:22736" ph="///   &lt;para&gt;Button 6 on second joystick.&lt;/para&gt; ... " />
+            <marker date="1594541658084" expanded="true" signature="22783:22867" ph="///   &lt;para&gt;Button 7 on second joystick.&lt;/para&gt; ... " />
+            <marker date="1594541658084" expanded="true" signature="22914:22998" ph="///   &lt;para&gt;Button 8 on second joystick.&lt;/para&gt; ... " />
+            <marker date="1594541658084" expanded="true" signature="23045:23129" ph="///   &lt;para&gt;Button 9 on second joystick.&lt;/para&gt; ... " />
+            <marker date="1594541658084" expanded="true" signature="23176:23261" ph="///   &lt;para&gt;Button 10 on second joystick.&lt;/para&gt; ... " />
+            <marker date="1594541658084" expanded="true" signature="23309:23394" ph="///   &lt;para&gt;Button 11 on second joystick.&lt;/para&gt; ... " />
+            <marker date="1594541658084" expanded="true" signature="23442:23527" ph="///   &lt;para&gt;Button 12 on second joystick.&lt;/para&gt; ... " />
+            <marker date="1594541658084" expanded="true" signature="23575:23660" ph="///   &lt;para&gt;Button 13 on second joystick.&lt;/para&gt; ... " />
+            <marker date="1594541658084" expanded="true" signature="23708:23793" ph="///   &lt;para&gt;Button 14 on second joystick.&lt;/para&gt; ... " />
+            <marker date="1594541658084" expanded="true" signature="23841:23926" ph="///   &lt;para&gt;Button 15 on second joystick.&lt;/para&gt; ... " />
+            <marker date="1594541658084" expanded="true" signature="23974:24059" ph="///   &lt;para&gt;Button 16 on second joystick.&lt;/para&gt; ... " />
+            <marker date="1594541658084" expanded="true" signature="24107:24192" ph="///   &lt;para&gt;Button 17 on second joystick.&lt;/para&gt; ... " />
+            <marker date="1594541658084" expanded="true" signature="24240:24325" ph="///   &lt;para&gt;Button 18 on second joystick.&lt;/para&gt; ... " />
+            <marker date="1594541658084" expanded="true" signature="24373:24458" ph="///   &lt;para&gt;Button 19 on second joystick.&lt;/para&gt; ... " />
+            <marker date="1594541658084" expanded="true" signature="24506:24589" ph="///   &lt;para&gt;Button 0 on third joystick.&lt;/para&gt; ... " />
+            <marker date="1594541658084" expanded="true" signature="24636:24719" ph="///   &lt;para&gt;Button 1 on third joystick.&lt;/para&gt; ... " />
+            <marker date="1594541658084" expanded="true" signature="24766:24849" ph="///   &lt;para&gt;Button 2 on third joystick.&lt;/para&gt; ... " />
+            <marker date="1594541658084" expanded="true" signature="24896:24979" ph="///   &lt;para&gt;Button 3 on third joystick.&lt;/para&gt; ... " />
+            <marker date="1594541658084" expanded="true" signature="25026:25109" ph="///   &lt;para&gt;Button 4 on third joystick.&lt;/para&gt; ... " />
+            <marker date="1594541658084" expanded="true" signature="25156:25239" ph="///   &lt;para&gt;Button 5 on third joystick.&lt;/para&gt; ... " />
+            <marker date="1594541658084" expanded="true" signature="25286:25369" ph="///   &lt;para&gt;Button 6 on third joystick.&lt;/para&gt; ... " />
+            <marker date="1594541658084" expanded="true" signature="25416:25499" ph="///   &lt;para&gt;Button 7 on third joystick.&lt;/para&gt; ... " />
+            <marker date="1594541658084" expanded="true" signature="25546:25629" ph="///   &lt;para&gt;Button 8 on third joystick.&lt;/para&gt; ... " />
+            <marker date="1594541658084" expanded="true" signature="25676:25759" ph="///   &lt;para&gt;Button 9 on third joystick.&lt;/para&gt; ... " />
+            <marker date="1594541658084" expanded="true" signature="25806:25890" ph="///   &lt;para&gt;Button 10 on third joystick.&lt;/para&gt; ... " />
+            <marker date="1594541658084" expanded="true" signature="25938:26022" ph="///   &lt;para&gt;Button 11 on third joystick.&lt;/para&gt; ... " />
+            <marker date="1594541658084" expanded="true" signature="26070:26154" ph="///   &lt;para&gt;Button 12 on third joystick.&lt;/para&gt; ... " />
+            <marker date="1594541658084" expanded="true" signature="26202:26286" ph="///   &lt;para&gt;Button 13 on third joystick.&lt;/para&gt; ... " />
+            <marker date="1594541658084" expanded="true" signature="26334:26418" ph="///   &lt;para&gt;Button 14 on third joystick.&lt;/para&gt; ... " />
+            <marker date="1594541658084" expanded="true" signature="26466:26550" ph="///   &lt;para&gt;Button 15 on third joystick.&lt;/para&gt; ... " />
+            <marker date="1594541658084" expanded="true" signature="26598:26682" ph="///   &lt;para&gt;Button 16 on third joystick.&lt;/para&gt; ... " />
+            <marker date="1594541658084" expanded="true" signature="26730:26814" ph="///   &lt;para&gt;Button 17 on third joystick.&lt;/para&gt; ... " />
+            <marker date="1594541658084" expanded="true" signature="26862:26946" ph="///   &lt;para&gt;Button 18 on third joystick.&lt;/para&gt; ... " />
+            <marker date="1594541658084" expanded="true" signature="26994:27078" ph="///   &lt;para&gt;Button 19 on third joystick.&lt;/para&gt; ... " />
+            <marker date="1594541658084" expanded="true" signature="27126:27209" ph="///   &lt;para&gt;Button 0 on forth joystick.&lt;/para&gt; ... " />
+            <marker date="1594541658084" expanded="true" signature="27256:27339" ph="///   &lt;para&gt;Button 1 on forth joystick.&lt;/para&gt; ... " />
+            <marker date="1594541658084" expanded="true" signature="27386:27469" ph="///   &lt;para&gt;Button 2 on forth joystick.&lt;/para&gt; ... " />
+            <marker date="1594541658084" expanded="true" signature="27516:27599" ph="///   &lt;para&gt;Button 3 on forth joystick.&lt;/para&gt; ... " />
+            <marker date="1594541658084" expanded="true" signature="27646:27729" ph="///   &lt;para&gt;Button 4 on forth joystick.&lt;/para&gt; ... " />
+            <marker date="1594541658084" expanded="true" signature="27776:27859" ph="///   &lt;para&gt;Button 5 on forth joystick.&lt;/para&gt; ... " />
+            <marker date="1594541658084" expanded="true" signature="27906:27989" ph="///   &lt;para&gt;Button 6 on forth joystick.&lt;/para&gt; ... " />
+            <marker date="1594541658084" expanded="true" signature="28036:28119" ph="///   &lt;para&gt;Button 7 on forth joystick.&lt;/para&gt; ... " />
+            <marker date="1594541658084" expanded="true" signature="28166:28249" ph="///   &lt;para&gt;Button 8 on forth joystick.&lt;/para&gt; ... " />
+            <marker date="1594541658084" expanded="true" signature="28296:28379" ph="///   &lt;para&gt;Button 9 on forth joystick.&lt;/para&gt; ... " />
+            <marker date="1594541658084" expanded="true" signature="28426:28510" ph="///   &lt;para&gt;Button 10 on forth joystick.&lt;/para&gt; ... " />
+            <marker date="1594541658084" expanded="true" signature="28558:28642" ph="///   &lt;para&gt;Button 11 on forth joystick.&lt;/para&gt; ... " />
+            <marker date="1594541658084" expanded="true" signature="28690:28774" ph="///   &lt;para&gt;Button 12 on forth joystick.&lt;/para&gt; ... " />
+            <marker date="1594541658084" expanded="true" signature="28822:28906" ph="///   &lt;para&gt;Button 13 on forth joystick.&lt;/para&gt; ... " />
+            <marker date="1594541658084" expanded="true" signature="28954:29038" ph="///   &lt;para&gt;Button 14 on forth joystick.&lt;/para&gt; ... " />
+            <marker date="1594541658084" expanded="true" signature="29086:29170" ph="///   &lt;para&gt;Button 15 on forth joystick.&lt;/para&gt; ... " />
+            <marker date="1594541658084" expanded="true" signature="29218:29302" ph="///   &lt;para&gt;Button 16 on forth joystick.&lt;/para&gt; ... " />
+            <marker date="1594541658084" expanded="true" signature="29350:29434" ph="///   &lt;para&gt;Button 17 on forth joystick.&lt;/para&gt; ... " />
+            <marker date="1594541658084" expanded="true" signature="29482:29566" ph="///   &lt;para&gt;Button 18 on forth joystick.&lt;/para&gt; ... " />
+            <marker date="1594541658084" expanded="true" signature="29614:29698" ph="///   &lt;para&gt;Button 19 on forth joystick.&lt;/para&gt; ... " />
+            <marker date="1594541658084" expanded="true" signature="29746:29829" ph="///   &lt;para&gt;Button 0 on fifth joystick.&lt;/para&gt; ... " />
+            <marker date="1594541658084" expanded="true" signature="29876:29959" ph="///   &lt;para&gt;Button 1 on fifth joystick.&lt;/para&gt; ... " />
+            <marker date="1594541658084" expanded="true" signature="30006:30089" ph="///   &lt;para&gt;Button 2 on fifth joystick.&lt;/para&gt; ... " />
+            <marker date="1594541658084" expanded="true" signature="30136:30219" ph="///   &lt;para&gt;Button 3 on fifth joystick.&lt;/para&gt; ... " />
+            <marker date="1594541658084" expanded="true" signature="30266:30349" ph="///   &lt;para&gt;Button 4 on fifth joystick.&lt;/para&gt; ... " />
+            <marker date="1594541658084" expanded="true" signature="30396:30479" ph="///   &lt;para&gt;Button 5 on fifth joystick.&lt;/para&gt; ... " />
+            <marker date="1594541658084" expanded="true" signature="30526:30609" ph="///   &lt;para&gt;Button 6 on fifth joystick.&lt;/para&gt; ... " />
+            <marker date="1594541658084" expanded="true" signature="30656:30739" ph="///   &lt;para&gt;Button 7 on fifth joystick.&lt;/para&gt; ... " />
+            <marker date="1594541658084" expanded="true" signature="30786:30869" ph="///   &lt;para&gt;Button 8 on fifth joystick.&lt;/para&gt; ... " />
+            <marker date="1594541658084" expanded="true" signature="30916:30999" ph="///   &lt;para&gt;Button 9 on fifth joystick.&lt;/para&gt; ... " />
+            <marker date="1594541658084" expanded="true" signature="31046:31130" ph="///   &lt;para&gt;Button 10 on fifth joystick.&lt;/para&gt; ... " />
+            <marker date="1594541658084" expanded="true" signature="31178:31262" ph="///   &lt;para&gt;Button 11 on fifth joystick.&lt;/para&gt; ... " />
+            <marker date="1594541658084" expanded="true" signature="31310:31394" ph="///   &lt;para&gt;Button 12 on fifth joystick.&lt;/para&gt; ... " />
+            <marker date="1594541658084" expanded="true" signature="31442:31526" ph="///   &lt;para&gt;Button 13 on fifth joystick.&lt;/para&gt; ... " />
+            <marker date="1594541658084" expanded="true" signature="31574:31658" ph="///   &lt;para&gt;Button 14 on fifth joystick.&lt;/para&gt; ... " />
+            <marker date="1594541658084" expanded="true" signature="31706:31790" ph="///   &lt;para&gt;Button 15 on fifth joystick.&lt;/para&gt; ... " />
+            <marker date="1594541658084" expanded="true" signature="31838:31922" ph="///   &lt;para&gt;Button 16 on fifth joystick.&lt;/para&gt; ... " />
+            <marker date="1594541658084" expanded="true" signature="31970:32054" ph="///   &lt;para&gt;Button 17 on fifth joystick.&lt;/para&gt; ... " />
+            <marker date="1594541658084" expanded="true" signature="32102:32186" ph="///   &lt;para&gt;Button 18 on fifth joystick.&lt;/para&gt; ... " />
+            <marker date="1594541658084" expanded="true" signature="32234:32318" ph="///   &lt;para&gt;Button 19 on fifth joystick.&lt;/para&gt; ... " />
+            <marker date="1594541658084" expanded="true" signature="32366:32449" ph="///   &lt;para&gt;Button 0 on sixth joystick.&lt;/para&gt; ... " />
+            <marker date="1594541658084" expanded="true" signature="32496:32579" ph="///   &lt;para&gt;Button 1 on sixth joystick.&lt;/para&gt; ... " />
+            <marker date="1594541658084" expanded="true" signature="32626:32709" ph="///   &lt;para&gt;Button 2 on sixth joystick.&lt;/para&gt; ... " />
+            <marker date="1594541658084" expanded="true" signature="32756:32839" ph="///   &lt;para&gt;Button 3 on sixth joystick.&lt;/para&gt; ... " />
+            <marker date="1594541658084" expanded="true" signature="32886:32969" ph="///   &lt;para&gt;Button 4 on sixth joystick.&lt;/para&gt; ... " />
+            <marker date="1594541658084" expanded="true" signature="33016:33099" ph="///   &lt;para&gt;Button 5 on sixth joystick.&lt;/para&gt; ... " />
+            <marker date="1594541658084" expanded="true" signature="33146:33229" ph="///   &lt;para&gt;Button 6 on sixth joystick.&lt;/para&gt; ... " />
+            <marker date="1594541658084" expanded="true" signature="33276:33359" ph="///   &lt;para&gt;Button 7 on sixth joystick.&lt;/para&gt; ... " />
+            <marker date="1594541658084" expanded="true" signature="33406:33489" ph="///   &lt;para&gt;Button 8 on sixth joystick.&lt;/para&gt; ... " />
+            <marker date="1594541658084" expanded="true" signature="33536:33619" ph="///   &lt;para&gt;Button 9 on sixth joystick.&lt;/para&gt; ... " />
+            <marker date="1594541658084" expanded="true" signature="33666:33750" ph="///   &lt;para&gt;Button 10 on sixth joystick.&lt;/para&gt; ... " />
+            <marker date="1594541658084" expanded="true" signature="33798:33882" ph="///   &lt;para&gt;Button 11 on sixth joystick.&lt;/para&gt; ... " />
+            <marker date="1594541658084" expanded="true" signature="33930:34014" ph="///   &lt;para&gt;Button 12 on sixth joystick.&lt;/para&gt; ... " />
+            <marker date="1594541658084" expanded="true" signature="34062:34146" ph="///   &lt;para&gt;Button 13 on sixth joystick.&lt;/para&gt; ... " />
+            <marker date="1594541658084" expanded="true" signature="34194:34278" ph="///   &lt;para&gt;Button 14 on sixth joystick.&lt;/para&gt; ... " />
+            <marker date="1594541658084" expanded="true" signature="34326:34410" ph="///   &lt;para&gt;Button 15 on sixth joystick.&lt;/para&gt; ... " />
+            <marker date="1594541658084" expanded="true" signature="34458:34542" ph="///   &lt;para&gt;Button 16 on sixth joystick.&lt;/para&gt; ... " />
+            <marker date="1594541658084" expanded="true" signature="34590:34674" ph="///   &lt;para&gt;Button 17 on sixth joystick.&lt;/para&gt; ... " />
+            <marker date="1594541658084" expanded="true" signature="34722:34806" ph="///   &lt;para&gt;Button 18 on sixth joystick.&lt;/para&gt; ... " />
+            <marker date="1594541658084" expanded="true" signature="34854:34938" ph="///   &lt;para&gt;Button 19 on sixth joystick.&lt;/para&gt; ... " />
+            <marker date="1594541658084" expanded="true" signature="34986:35071" ph="///   &lt;para&gt;Button 0 on seventh joystick.&lt;/para&gt; ... " />
+            <marker date="1594541658084" expanded="true" signature="35118:35203" ph="///   &lt;para&gt;Button 1 on seventh joystick.&lt;/para&gt; ... " />
+            <marker date="1594541658084" expanded="true" signature="35250:35335" ph="///   &lt;para&gt;Button 2 on seventh joystick.&lt;/para&gt; ... " />
+            <marker date="1594541658084" expanded="true" signature="35382:35467" ph="///   &lt;para&gt;Button 3 on seventh joystick.&lt;/para&gt; ... " />
+            <marker date="1594541658084" expanded="true" signature="35514:35599" ph="///   &lt;para&gt;Button 4 on seventh joystick.&lt;/para&gt; ... " />
+            <marker date="1594541658084" expanded="true" signature="35646:35731" ph="///   &lt;para&gt;Button 5 on seventh joystick.&lt;/para&gt; ... " />
+            <marker date="1594541658084" expanded="true" signature="35778:35863" ph="///   &lt;para&gt;Button 6 on seventh joystick.&lt;/para&gt; ... " />
+            <marker date="1594541658084" expanded="true" signature="35910:35995" ph="///   &lt;para&gt;Button 7 on seventh joystick.&lt;/para&gt; ... " />
+            <marker date="1594541658084" expanded="true" signature="36042:36127" ph="///   &lt;para&gt;Button 8 on seventh joystick.&lt;/para&gt; ... " />
+            <marker date="1594541658084" expanded="true" signature="36174:36259" ph="///   &lt;para&gt;Button 9 on seventh joystick.&lt;/para&gt; ... " />
+            <marker date="1594541658084" expanded="true" signature="36306:36392" ph="///   &lt;para&gt;Button 10 on seventh joystick.&lt;/para&gt; ... " />
+            <marker date="1594541658084" expanded="true" signature="36440:36526" ph="///   &lt;para&gt;Button 11 on seventh joystick.&lt;/para&gt; ... " />
+            <marker date="1594541658084" expanded="true" signature="36574:36660" ph="///   &lt;para&gt;Button 12 on seventh joystick.&lt;/para&gt; ... " />
+            <marker date="1594541658084" expanded="true" signature="36708:36794" ph="///   &lt;para&gt;Button 13 on seventh joystick.&lt;/para&gt; ... " />
+            <marker date="1594541658084" expanded="true" signature="36842:36928" ph="///   &lt;para&gt;Button 14 on seventh joystick.&lt;/para&gt; ... " />
+            <marker date="1594541658084" expanded="true" signature="36976:37062" ph="///   &lt;para&gt;Button 15 on seventh joystick.&lt;/para&gt; ... " />
+            <marker date="1594541658084" expanded="true" signature="37110:37196" ph="///   &lt;para&gt;Button 16 on seventh joystick.&lt;/para&gt; ... " />
+            <marker date="1594541658084" expanded="true" signature="37244:37330" ph="///   &lt;para&gt;Button 17 on seventh joystick.&lt;/para&gt; ... " />
+            <marker date="1594541658084" expanded="true" signature="37378:37464" ph="///   &lt;para&gt;Button 18 on seventh joystick.&lt;/para&gt; ... " />
+            <marker date="1594541658084" expanded="true" signature="37512:37598" ph="///   &lt;para&gt;Button 19 on seventh joystick.&lt;/para&gt; ... " />
+            <marker date="1594541658084" expanded="true" signature="37646:37730" ph="///   &lt;para&gt;Button 0 on eighth joystick.&lt;/para&gt; ... " />
+            <marker date="1594541658084" expanded="true" signature="37777:37861" ph="///   &lt;para&gt;Button 1 on eighth joystick.&lt;/para&gt; ... " />
+            <marker date="1594541658084" expanded="true" signature="37908:37992" ph="///   &lt;para&gt;Button 2 on eighth joystick.&lt;/para&gt; ... " />
+            <marker date="1594541658084" expanded="true" signature="38039:38123" ph="///   &lt;para&gt;Button 3 on eighth joystick.&lt;/para&gt; ... " />
+            <marker date="1594541658084" expanded="true" signature="38170:38254" ph="///   &lt;para&gt;Button 4 on eighth joystick.&lt;/para&gt; ... " />
+            <marker date="1594541658084" expanded="true" signature="38301:38385" ph="///   &lt;para&gt;Button 5 on eighth joystick.&lt;/para&gt; ... " />
+            <marker date="1594541658084" expanded="true" signature="38432:38516" ph="///   &lt;para&gt;Button 6 on eighth joystick.&lt;/para&gt; ... " />
+            <marker date="1594541658084" expanded="true" signature="38563:38647" ph="///   &lt;para&gt;Button 7 on eighth joystick.&lt;/para&gt; ... " />
+            <marker date="1594541658084" expanded="true" signature="38694:38778" ph="///   &lt;para&gt;Button 8 on eighth joystick.&lt;/para&gt; ... " />
+            <marker date="1594541658084" expanded="true" signature="38825:38909" ph="///   &lt;para&gt;Button 9 on eighth joystick.&lt;/para&gt; ... " />
+            <marker date="1594541658084" expanded="true" signature="38956:39041" ph="///   &lt;para&gt;Button 10 on eighth joystick.&lt;/para&gt; ... " />
+            <marker date="1594541658084" expanded="true" signature="39089:39174" ph="///   &lt;para&gt;Button 11 on eighth joystick.&lt;/para&gt; ... " />
+            <marker date="1594541658084" expanded="true" signature="39222:39307" ph="///   &lt;para&gt;Button 12 on eighth joystick.&lt;/para&gt; ... " />
+            <marker date="1594541658084" expanded="true" signature="39355:39440" ph="///   &lt;para&gt;Button 13 on eighth joystick.&lt;/para&gt; ... " />
+            <marker date="1594541658084" expanded="true" signature="39488:39573" ph="///   &lt;para&gt;Button 14 on eighth joystick.&lt;/para&gt; ... " />
+            <marker date="1594541658084" expanded="true" signature="39621:39706" ph="///   &lt;para&gt;Button 15 on eighth joystick.&lt;/para&gt; ... " />
+            <marker date="1594541658084" expanded="true" signature="39754:39839" ph="///   &lt;para&gt;Button 16 on eighth joystick.&lt;/para&gt; ... " />
+            <marker date="1594541658084" expanded="true" signature="39887:39972" ph="///   &lt;para&gt;Button 17 on eighth joystick.&lt;/para&gt; ... " />
+            <marker date="1594541658084" expanded="true" signature="40020:40105" ph="///   &lt;para&gt;Button 18 on eighth joystick.&lt;/para&gt; ... " />
+            <marker date="1594541658084" expanded="true" signature="40153:40238" ph="///   &lt;para&gt;Button 19 on eighth joystick.&lt;/para&gt; ... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/StateAnimatorBehaviours/DeactivateObject.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="112">
+          <caret line="9" column="43" selection-start-line="9" selection-start-column="43" selection-end-line="9" selection-end-column="43" />
+          <folding>
+            <marker date="1594551394350" expanded="false" signature="6:78" ph="..." />
+            <marker date="1594551394350" expanded="true" signature="133:1382" ph="{...}" />
+            <marker date="1594551394350" expanded="true" signature="344:402" ph="{...}" />
+            <marker date="1594551394350" expanded="true" signature="408:1380" ph="/* OnStateUpdate is called on each Update frame between OnStateEnter and OnStateExit callbacks ... */" />
           </folding>
         </state>
       </provider>
@@ -572,8 +1187,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/Objects/DraggableObject.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="400">
-          <caret line="26" column="21" lean-forward="true" selection-start-line="26" selection-start-column="21" selection-end-line="26" selection-end-column="21" />
+        <state>
+          <caret line="1" column="30" selection-start-line="1" selection-start-column="30" selection-end-line="1" selection-end-column="30" />
           <folding>
             <marker date="1594506342721" expanded="false" signature="6:49" ph="..." />
             <marker date="1594506342721" expanded="true" signature="68:1843" ph="{...}" />
@@ -589,22 +1204,156 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/InputTest.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="7" column="27" selection-start-line="7" selection-start-column="27" selection-end-line="12" selection-end-column="9" />
+          <folding>
+            <marker date="1594481890709" expanded="false" signature="6:49" ph="..." />
+            <marker date="1594481890709" expanded="true" signature="89:252" ph="{...}" />
+            <marker date="1594481890709" expanded="true" signature="157:250" ph="{...}" />
+            <marker date="1594481890709" expanded="true" signature="194:244" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/KeyboardScripts/LetterPool.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-720">
+          <caret line="9" column="316" selection-start-line="9" selection-start-column="316" selection-end-line="9" selection-end-column="316" />
+          <folding>
+            <marker date="1594545687590" expanded="true" signature="6:67" ph="..." />
+            <marker date="1594545687590" expanded="true" signature="94:4026" ph="{...}" />
+            <marker date="1594545687590" expanded="true" signature="140:4024" ph="{...}" />
+            <marker date="1594545687590" expanded="true" signature="202:807" ph="{...}" />
+            <marker date="1594545687590" expanded="true" signature="1394:1443" ph="{...}" />
+            <marker date="1594545687590" expanded="true" signature="1473:1689" ph="{...}" />
+            <marker date="1594545687590" expanded="true" signature="1736:2301" ph="{...}" />
+            <marker date="1594545687590" expanded="true" signature="1858:1974" ph="{...}" />
+            <marker date="1594545687590" expanded="true" signature="2047:2265" ph="{...}" />
+            <marker date="1594545687590" expanded="true" signature="2334:3668" ph="{...}" />
+            <marker date="1594545687590" expanded="true" signature="2379:2514" ph="{...}" />
+            <marker date="1594545687590" expanded="true" signature="2702:3456" ph="{...}" />
+            <marker date="1594545687590" expanded="true" signature="3706:3837" ph="{...}" />
+            <marker date="1594545687590" expanded="true" signature="3771:3827" ph="{...}" />
+            <marker date="1594545687590" expanded="true" signature="3873:4018" ph="{...}" />
+            <marker date="1594545687590" expanded="true" signature="3947:4008" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../RovioTest/RovioChallenge/Assets/Code/Configurations/GameConfiguration.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="416">
+          <caret line="28" selection-start-line="28" selection-end-line="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/TypingGame/RandomConfigurations.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="224">
+          <caret line="14" column="9" selection-start-line="14" selection-start-column="9" selection-end-line="14" selection-end-column="9" />
+          <folding>
+            <marker date="1594553740868" expanded="true" signature="40:449" ph="{...}" />
+            <marker date="1594553740868" expanded="true" signature="217:447" ph="{...}" />
+            <marker date="1594553740868" expanded="true" signature="362:441" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../ZeptoLabTest/ZeptoLabTest/Assets/Scripts/UI/ScoreUI.cs">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/KeyboardScripts/TypingListener.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="427">
+          <caret line="34" column="20" selection-start-line="34" selection-start-column="20" selection-end-line="34" selection-end-column="20" />
+          <folding>
+            <marker date="1594554916151" expanded="true" signature="6:44" ph="..." />
+            <marker date="1594554916151" expanded="true" signature="71:2404" ph="{...}" />
+            <marker date="1594554916151" expanded="true" signature="121:2402" ph="{...}" />
+            <marker date="1594554916151" expanded="true" signature="286:335" ph="{...}" />
+            <marker date="1594554916151" expanded="true" signature="387:822" ph="{...}" />
+            <marker date="1594554916151" expanded="true" signature="504:812" ph="{...}" />
+            <marker date="1594554916151" expanded="true" signature="553:642" ph="{...}" />
+            <marker date="1594554916151" expanded="true" signature="663:752" ph="{...}" />
+            <marker date="1594554916151" expanded="true" signature="858:912" ph="{...}" />
+            <marker date="1594554916151" expanded="true" signature="947:1002" ph="{...}" />
+            <marker date="1594554916151" expanded="true" signature="1062:2396" ph="{...}" />
+            <marker date="1594554916151" expanded="true" signature="1097:2386" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../ZeptoLabTest/ZeptoLabTest/Assets/Scripts/UI/TimeLeftUI.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="384">
+          <caret line="28" column="38" lean-forward="true" selection-start-line="28" selection-start-column="38" selection-end-line="28" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/TypingGame/TypingGame.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="363">
+          <caret line="54" column="47" lean-forward="true" selection-start-line="54" selection-start-column="47" selection-end-line="54" selection-end-column="47" />
+          <folding>
+            <marker date="1594556162018" expanded="true" signature="6:54" ph="..." />
+            <marker date="1594556162018" expanded="true" signature="76:2589" ph="{...}" />
+            <marker date="1594556162018" expanded="true" signature="122:2587" ph="{...}" />
+            <marker date="1594556162018" expanded="true" signature="802:1097" ph="{...}" />
+            <marker date="1594556162018" expanded="true" signature="1131:1211" ph="{...}" />
+            <marker date="1594556162018" expanded="true" signature="1242:1625" ph="{...}" />
+            <marker date="1594556162018" expanded="true" signature="1306:1483" ph="{...}" />
+            <marker date="1594556162018" expanded="true" signature="1672:2261" ph="{...}" />
+            <marker date="1594556162018" expanded="true" signature="1730:2180" ph="{...}" />
+            <marker date="1594556162018" expanded="true" signature="2004:2166" ph="{...}" />
+            <marker date="1594556162018" expanded="true" signature="2197:2251" ph="{...}" />
+            <marker date="1594556162018" expanded="true" signature="2292:2422" ph="{...}" />
+            <marker date="1594556162018" expanded="true" signature="2460:2581" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/KeyboardScripts/KeyboardKey.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="611">
-          <caret line="39" column="83" lean-forward="true" selection-start-line="39" selection-start-column="83" selection-end-line="39" selection-end-column="83" />
+        <state relative-caret-position="-272">
+          <caret line="40" column="37" selection-start-line="40" selection-start-column="37" selection-end-line="40" selection-end-column="37" />
           <folding>
-            <marker date="1594509093870" expanded="true" signature="6:88" ph="..." />
-            <marker date="1594509093870" expanded="true" signature="115:2383" ph="{...}" />
-            <marker date="1594509093870" expanded="true" signature="162:2381" ph="{...}" />
-            <marker date="1594509093870" expanded="true" signature="610:660" ph="{...}" />
-            <marker date="1594509093870" expanded="true" signature="702:796" ph="{...}" />
-            <marker date="1594509093870" expanded="true" signature="829:1429" ph="{...}" />
-            <marker date="1594509093870" expanded="true" signature="1031:1419" ph="{...}" />
-            <marker date="1594509093870" expanded="true" signature="1158:1405" ph="{...}" />
-            <marker date="1594509093870" expanded="true" signature="1507:1804" ph="{...}" />
-            <marker date="1594509093870" expanded="true" signature="1869:2375" ph="{...}" />
-            <marker date="1594509093870" expanded="true" signature="1957:2262" ph="{...}" />
+            <marker date="1594545745989" expanded="false" signature="6:88" ph="..." />
+            <marker date="1594545745989" expanded="true" signature="115:4010" ph="{...}" />
+            <marker date="1594545745989" expanded="true" signature="162:4008" ph="{...}" />
+            <marker date="1594545745989" expanded="true" signature="679:740" ph="{...}" />
+            <marker date="1594545745989" expanded="true" signature="781:889" ph="{...}" />
+            <marker date="1594545745989" expanded="true" signature="949:2343" ph="{...}" />
+            <marker date="1594545745989" expanded="true" signature="984:2289" ph="{...}" />
+            <marker date="1594545745989" expanded="true" signature="2376:2976" ph="{...}" />
+            <marker date="1594545745989" expanded="true" signature="2578:2966" ph="{...}" />
+            <marker date="1594545745989" expanded="true" signature="2705:2952" ph="{...}" />
+            <marker date="1594545745989" expanded="true" signature="3054:3161" ph="{...}" />
+            <marker date="1594545745989" expanded="true" signature="3195:3431" ph="{...}" />
+            <marker date="1594545745989" expanded="true" signature="3496:4002" ph="{...}" />
+            <marker date="1594545745989" expanded="true" signature="3584:3889" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/KeyboardScripts/KeyJoint.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="496">
+          <caret line="33" column="52" selection-start-line="33" selection-start-column="52" selection-end-line="33" selection-end-column="52" />
+          <folding>
+            <marker date="1594554598885" expanded="false" signature="6:89" ph="..." />
+            <marker date="1594554598885" expanded="true" signature="116:1546" ph="{...}" />
+            <marker date="1594554598885" expanded="true" signature="160:1544" ph="{...}" />
+            <marker date="1594554598885" expanded="true" signature="315:514" ph="{...}" />
+            <marker date="1594554598885" expanded="true" signature="370:504" ph="{...}" />
+            <marker date="1594554598885" expanded="true" signature="566:682" ph="{...}" />
+            <marker date="1594554598885" expanded="true" signature="751:1538" ph="{...}" />
+            <marker date="1594554598885" expanded="true" signature="812:1152" ph="{...}" />
+            <marker date="1594554598885" expanded="true" signature="863:959" ph="{...}" />
+            <marker date="1594554598885" expanded="true" signature="1002:1097" ph="{...}" />
+            <marker date="1594554598885" expanded="true" signature="1200:1528" ph="{...}" />
+            <marker date="1594554598885" expanded="true" signature="1343:1514" ph="{...}" />
           </folding>
         </state>
       </provider>
