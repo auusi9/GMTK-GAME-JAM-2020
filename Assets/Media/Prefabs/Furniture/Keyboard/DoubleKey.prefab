@@ -348,7 +348,7 @@ MonoBehaviour:
   _collideLayerMask:
     serializedVersion: 2
     m_Bits: 256
-  _defaultY: 1
+  _defaultY: 0.9
 --- !u!114 &1095707581779956021
 MonoBehaviour:
   m_ObjectHideFlags: 0
