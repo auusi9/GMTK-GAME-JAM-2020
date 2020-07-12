@@ -7,12 +7,13 @@ namespace KeyboardScripts
     public class KeyJoint : MonoBehaviour
     {
         [SerializeField] private KeyboardKey _defaultKeyboardKey;
-        private KeyCode _assignedKey;
+        private KeyCode _assignedKey = KeyCode.None;
 
         private void Start()
         {
             if (_defaultKeyboardKey != null)
             {
+                _defaultKeyboardKey.DisableKey();
                 _assignedKey = _defaultKeyboardKey.Key;
             }
         }
@@ -20,6 +21,8 @@ namespace KeyboardScripts
         public void NewKeyAssigned(KeyCode newKey)
         {
             _assignedKey = newKey;
+            
+            LetterPool.Instance.NewKeyJoined();
         }
 
         public void KeyPressed(InputAction.CallbackContext context)
@@ -27,6 +30,10 @@ namespace KeyboardScripts
             if (context.performed)
             {  
                 Debug.Log("KEY PRESSED " + context.action.controls[0].name);
+                if (_assignedKey != KeyCode.None)
+                {
+                    Debug.Log("KEY SENDED " + _assignedKey);
+                }
             }
         }
     }

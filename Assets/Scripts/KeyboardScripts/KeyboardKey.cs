@@ -14,15 +14,61 @@ namespace KeyboardScripts
         [SerializeField] private Quaternion _finalRotation;
         [SerializeField] private Vector3 _finalOffset;
         [SerializeField] private float _snapSpeed = 1f;
+        [SerializeField] private KeyCode _defaultKey = KeyCode.None;
         public KeyCode Key
         {
-            get; private set;
+            get { return _defaultKey; } 
         }
 
-        private void SetKey(KeyCode key)
+        public void SetKey(KeyCode key)
         {
-            Key = key;
-            _textMeshPro?.SetText(key.ToString());
+            _defaultKey = key;
+            _textMeshPro?.SetText(KeyCodeToString(key));
+        }
+
+        private static string KeyCodeToString(KeyCode key)
+        {
+            switch (key)
+            {
+                case KeyCode.Keypad0:
+                    return "0";
+                case KeyCode.Keypad1:
+                    return "1";
+                case KeyCode.Keypad2:
+                    return "2";
+                case KeyCode.Keypad3:
+                    return "3";
+                case KeyCode.Keypad4:
+                    return "4";
+                case KeyCode.Keypad5:
+                    return "5";
+                case KeyCode.Keypad6:
+                    return "6";
+                case KeyCode.Keypad7:
+                    return "7";
+                case KeyCode.Keypad8:
+                    return "8";
+                case KeyCode.Keypad9:
+                    return "9";
+                case KeyCode.Period:
+                    return ".";
+                case KeyCode.Comma:
+                    return ",";
+                case KeyCode.LeftAlt:
+                    return "Alt";
+                case KeyCode.LeftControl:
+                    return "Ctrl";
+                case KeyCode.LeftShift:
+                    return "Shift";
+                case KeyCode.Backspace:
+                    return "<--";
+                case KeyCode.Semicolon:
+                    return ";";
+                default:
+                    return key.ToString();
+
+            }
+            return key.ToString();         
         }
 
         public void OnMouseUp()
@@ -44,11 +90,16 @@ namespace KeyboardScripts
 
         private void DeactivateKeyAndGoToPosition(Vector3 transformPosition)
         {
+            DisableKey();
+            StartCoroutine(GoToPosition(transformPosition));
+        }
+
+        public void DisableKey()
+        {
             _rigidbody.velocity = Vector3.zero;
             _rigidbody.angularVelocity = Vector3.zero;
             _rigidbody.constraints = RigidbodyConstraints.FreezeAll;
             _mouseClicksDetector.Disable();
-            StartCoroutine(GoToPosition(transformPosition));
         }
 
         private IEnumerator GoToPosition(Vector3 finalPosition)
